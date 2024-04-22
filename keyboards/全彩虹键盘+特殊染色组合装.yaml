@@ -1,0 +1,5224 @@
+keyboard:
+  colorSchemas:
+    - schemaName: Tyrael
+      name: 泰瑞尔
+      author: Wiiliam <no_reply@najest.com>
+      back_color: "0xDAD3D0"
+      button_back_color: "0xFFFFFF"
+      button_pressed_back_color: "0xE0FAFFF5"
+      button_bubble_back_color: "0xE0FAFFF5"
+      button_foreground_color: "0x000000"
+      button_pressed_foreground_color: "0xED9564"
+      button_swipe_foreground_color: "0x444444"
+      button_swipe_pressed_foreground_color: "0x000000"
+      font_size: 22
+      swipe_font_size: 12
+      corner_radius: 9
+      border_color: "0x0F000000"
+      border_size: 1
+      text_color: "0x78962C"
+      lower_edge_color: "0x05000000"
+      shadow_color: "0x000000"
+      shadow_size: 2
+      hilited_candidate_back_color: "0xE0FAFFF5"
+      hilited_candidate_text_color: "0x5C5CCD"
+      hilited_candidate_label_color: "0x7AA0FF"
+      hilited_comment_text_color: "0x1A5738"
+      candidate_text_color: "0xED9564"
+      comment_text_color: "0x7A96E9"
+      label_color: "0x7AA0FF"
+      hilited_callout_back_color: "0xE0FAFFF5"
+      hilited_callout_foreground_color: "0xED9564"
+      action_callout_back_color: "0xE0FAFFF5"
+    - schemaName: Mephiston
+      name: 墨菲斯托
+      author: Wiiliam <no_reply@najest.com>
+      back_color: "0x323232"
+      button_back_color: "0x3F413F"
+      button_pressed_back_color: "0xE01F201F"
+      button_bubble_back_color: "0xE01F201F"
+      button_foreground_color: "0xFAFFF5"
+      button_pressed_foreground_color: "0x4763FF"
+      button_swipe_foreground_color: "0xFAFFF5"
+      button_swipe_pressed_foreground_color: "0x000000"
+      font_size: 22
+      swipe_font_size: 12
+      corner_radius: 9
+      border_color: "0x01430A17"
+      border_size: 1
+      text_color: "0xFF9966"
+      lower_edge_color: "0x2DF5FFFA"
+      shadow_color: "0xF5FFFA"
+      shadow_size: 2
+      hilited_candidate_back_color: "0xE0FAFFF5"
+      hilited_candidate_text_color: "0x3333CC"
+      hilited_candidate_label_color: "0x6B6BC7"
+      hilited_comment_text_color: "0x336600"
+      candidate_text_color: "0xED9564"
+      comment_text_color: "0xAAB220"
+      label_color: "0x8B8B00"
+      hilited_callout_back_color: "0xE01F201F"
+      hilited_callout_foreground_color: "0x4763FF"
+      action_callout_back_color: "0xE01F201F"
+keyStyle:
+  A: &a21
+    name: A
+    buttonBackgroundColor: "0xF7FDFF"
+    pressedButtonBackgroundColor: "0xFAFFF5"
+    buttonForegroundColor: "0x6633FF"
+    pressedButtonForegroundColor: "0x6633FF"
+    swipeForegroundColor: "0x78962C"
+    pressedSwipeForegroundColor: "0x78962C"
+    buttonBubbleBackgroundColor: "0xFAFFF5"
+    actionCalloutSelectedForegroundColor: "0x6633FF"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0x000000"
+    shadowSize: 2
+  A-Dark: &a22
+    name: A-Dark
+    buttonBackgroundColor: "0x3F413F"
+    pressedButtonBackgroundColor: "0x1F201F"
+    buttonForegroundColor: "0x4D26BF"
+    pressedButtonForegroundColor: "0x4D26BF"
+    swipeForegroundColor: "0xFAFFF5"
+    pressedSwipeForegroundColor: "0xFAFFF5"
+    buttonBubbleBackgroundColor: "0x1F201F"
+    actionCalloutSelectedForegroundColor: "0x4D26BF"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0xCDF5FFFA"
+    shadowSize: 2
+  B: &a49
+    name: B
+    buttonBackgroundColor: "0xF7FDFF"
+    pressedButtonBackgroundColor: "0xFAFFF5"
+    buttonForegroundColor: "0xCCCC33"
+    pressedButtonForegroundColor: "0xCCCC33"
+    swipeForegroundColor: "0x78962C"
+    pressedSwipeForegroundColor: "0x78962C"
+    buttonBubbleBackgroundColor: "0xFAFFF5"
+    actionCalloutSelectedForegroundColor: "0xCCCC33"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0x000000"
+    shadowSize: 2
+  B-Dark: &a50
+    name: B-Dark
+    buttonBackgroundColor: "0x3F413F"
+    pressedButtonBackgroundColor: "0x1F201F"
+    buttonForegroundColor: "0x999926"
+    pressedButtonForegroundColor: "0x999926"
+    swipeForegroundColor: "0xFAFFF5"
+    pressedSwipeForegroundColor: "0xFAFFF5"
+    buttonBubbleBackgroundColor: "0x1F201F"
+    actionCalloutSelectedForegroundColor: "0x999926"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0xCDF5FFFA"
+    shadowSize: 2
+  C: &a45
+    name: C
+    buttonBackgroundColor: "0xF7FDFF"
+    pressedButtonBackgroundColor: "0xFAFFF5"
+    buttonForegroundColor: "0x00CCFF"
+    pressedButtonForegroundColor: "0x00CCFF"
+    swipeForegroundColor: "0x78962C"
+    pressedSwipeForegroundColor: "0x78962C"
+    buttonBubbleBackgroundColor: "0xFAFFF5"
+    actionCalloutSelectedForegroundColor: "0x00CCFF"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0x000000"
+    shadowSize: 2
+  C-Dark: &a46
+    name: C-Dark
+    buttonBackgroundColor: "0x3F413F"
+    pressedButtonBackgroundColor: "0x1F201F"
+    buttonForegroundColor: "0x0099BF"
+    pressedButtonForegroundColor: "0x0099BF"
+    swipeForegroundColor: "0xFAFFF5"
+    pressedSwipeForegroundColor: "0xFAFFF5"
+    buttonBubbleBackgroundColor: "0x1F201F"
+    actionCalloutSelectedForegroundColor: "0x0099BF"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0xCDF5FFFA"
+    shadowSize: 2
+  D: &a25
+    name: D
+    buttonBackgroundColor: "0xF7FDFF"
+    pressedButtonBackgroundColor: "0xFAFFF5"
+    buttonForegroundColor: "0x3399FF"
+    pressedButtonForegroundColor: "0x3399FF"
+    swipeForegroundColor: "0x78962C"
+    pressedSwipeForegroundColor: "0x78962C"
+    buttonBubbleBackgroundColor: "0xFAFFF5"
+    actionCalloutSelectedForegroundColor: "0x3399FF"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0x000000"
+    shadowSize: 2
+  D-Dark: &a26
+    name: D-Dark
+    buttonBackgroundColor: "0x3F413F"
+    pressedButtonBackgroundColor: "0x1F201F"
+    buttonForegroundColor: "0x2673BF"
+    pressedButtonForegroundColor: "0x2673BF"
+    swipeForegroundColor: "0xFAFFF5"
+    pressedSwipeForegroundColor: "0xFAFFF5"
+    buttonBubbleBackgroundColor: "0x1F201F"
+    actionCalloutSelectedForegroundColor: "0x2673BF"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0xCDF5FFFA"
+    shadowSize: 2
+  Delete: &a55
+    name: Delete
+    buttonBackgroundColor: "0xF7FDFF"
+    pressedButtonBackgroundColor: "0xFAFFF5"
+    buttonForegroundColor: "0xC1B6FF"
+    pressedButtonForegroundColor: "0xC1B6FF"
+    swipeForegroundColor: "0x78962C"
+    pressedSwipeForegroundColor: "0x78962C"
+    buttonBubbleBackgroundColor: "0xFAFFF5"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0x000000"
+    shadowSize: 2
+  Delete-dark: &a56
+    name: Delete-dark
+    buttonBackgroundColor: "0x3F413F"
+    pressedButtonBackgroundColor: "0x1F201F"
+    buttonForegroundColor: "0x9370DB"
+    pressedButtonForegroundColor: "0x9370DB"
+    swipeForegroundColor: "0xF7FDFF"
+    pressedSwipeForegroundColor: "0x000000"
+    buttonBubbleBackgroundColor: "0x1F201F"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0xCDF5FFFA"
+    shadowSize: 2
+  Digit: &a59
+    name: Digit
+    buttonBackgroundColor: "0xF7FDFF"
+    pressedButtonBackgroundColor: "0xFAFFF5"
+    buttonForegroundColor: "0x82A112"
+    pressedButtonForegroundColor: "0x82A112"
+    swipeForegroundColor: "0x78962C"
+    pressedSwipeForegroundColor: "0x78962C"
+    buttonBubbleBackgroundColor: "0xFAFFF5"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0x000000"
+    shadowSize: 2
+  Digit-dark: &a60
+    name: Digit-dark
+    buttonBackgroundColor: "0x3F413F"
+    pressedButtonBackgroundColor: "0x1F201F"
+    buttonForegroundColor: "0x678024"
+    pressedButtonForegroundColor: "0x678024"
+    swipeForegroundColor: "0xF7FDFF"
+    pressedSwipeForegroundColor: "0x000000"
+    buttonBubbleBackgroundColor: "0x1F201F"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0xCDF5FFFA"
+    shadowSize: 2
+  E: &a5
+    name: E
+    buttonBackgroundColor: "0xF7FDFF"
+    pressedButtonBackgroundColor: "0xFAFFF5"
+    buttonForegroundColor: "0x7AA0FF"
+    pressedButtonForegroundColor: "0x7AA0FF"
+    swipeForegroundColor: "0x78962C"
+    pressedSwipeForegroundColor: "0x78962C"
+    buttonBubbleBackgroundColor: "0xFAFFF5"
+    actionCalloutSelectedForegroundColor: "0x7AA0FF"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0x000000"
+    shadowSize: 2
+  E-Dark: &a6
+    name: E-Dark
+    buttonBackgroundColor: "0x3F413F"
+    pressedButtonBackgroundColor: "0x1F201F"
+    buttonForegroundColor: "0x5C78BF"
+    pressedButtonForegroundColor: "0x5C78BF"
+    swipeForegroundColor: "0xFAFFF5"
+    pressedSwipeForegroundColor: "0xFAFFF5"
+    buttonBubbleBackgroundColor: "0x1F201F"
+    actionCalloutSelectedForegroundColor: "0x5C78BF"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0xCDF5FFFA"
+    shadowSize: 2
+  EN: &a57
+    name: EN
+    buttonBackgroundColor: "0xF7FDFF"
+    pressedButtonBackgroundColor: "0xFAFFF5"
+    buttonForegroundColor: "0xAACD66"
+    pressedButtonForegroundColor: "0xAACD66"
+    swipeForegroundColor: "0x000000"
+    pressedSwipeForegroundColor: "0x000000"
+    buttonBubbleBackgroundColor: "0xFAFFF5"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0x000000"
+    shadowSize: 2
+  EN-Dark: &a58
+    name: EN-Dark
+    buttonBackgroundColor: "0x3F413F"
+    pressedButtonBackgroundColor: "0x1F201F"
+    buttonForegroundColor: "0xA49D3F"
+    pressedButtonForegroundColor: "0xA49D3F"
+    swipeForegroundColor: "0xF7FDFF"
+    pressedSwipeForegroundColor: "0x000000"
+    buttonBubbleBackgroundColor: "0x1F201F"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0xCDF5FFFA"
+    shadowSize: 2
+  Emojis: &a63
+    name: Emojis
+    buttonBackgroundColor: "0xF7FDFF"
+    pressedButtonBackgroundColor: "0xFAFFF5"
+    buttonForegroundColor: "0x7AA0FF"
+    pressedButtonForegroundColor: "0x7AA0FF"
+    swipeForegroundColor: "0x000000"
+    pressedSwipeForegroundColor: "0x000000"
+    buttonBubbleBackgroundColor: "0xFAFFF5"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0x000000"
+    shadowSize: 2
+  Emojis-Dark: &a64
+    name: Emojis-Dark
+    buttonBackgroundColor: "0x3F413F"
+    pressedButtonBackgroundColor: "0x1F201F"
+    buttonForegroundColor: "0x7A96E9"
+    pressedButtonForegroundColor: "0x7A96E9"
+    swipeForegroundColor: "0xF7FDFF"
+    pressedSwipeForegroundColor: "0x000000"
+    buttonBubbleBackgroundColor: "0x1F201F"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0xCDF5FFFA"
+    shadowSize: 2
+  Enter: &a65
+    name: Enter
+    buttonBackgroundColor: "0xF7FDFF"
+    pressedButtonBackgroundColor: "0xFAFFF5"
+    buttonForegroundColor: "0xA48AEC"
+    pressedButtonForegroundColor: "0xA48AEC"
+    swipeForegroundColor: "0x000000"
+    pressedSwipeForegroundColor: "0x000000"
+    buttonBubbleBackgroundColor: "0xFAFFF5"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0x000000"
+    shadowSize: 2
+  Enter-dark: &a66
+    name: Enter-dark
+    buttonBackgroundColor: "0x3F413F"
+    pressedButtonBackgroundColor: "0x1F201F"
+    buttonForegroundColor: "0x6666E0"
+    pressedButtonForegroundColor: "0x6666E0"
+    swipeForegroundColor: "0xF7FDFF"
+    pressedSwipeForegroundColor: "0x000000"
+    buttonBubbleBackgroundColor: "0x1F201F"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0xCDF5FFFA"
+    shadowSize: 2
+  F: &a27
+    name: F
+    buttonBackgroundColor: "0xF7FDFF"
+    pressedButtonBackgroundColor: "0xFAFFF5"
+    buttonForegroundColor: "0x339933"
+    pressedButtonForegroundColor: "0x339933"
+    swipeForegroundColor: "0x78962C"
+    pressedSwipeForegroundColor: "0x78962C"
+    buttonBubbleBackgroundColor: "0xFAFFF5"
+    actionCalloutSelectedForegroundColor: "0x339933"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0x000000"
+    shadowSize: 2
+  F-Dark: &a28
+    name: F-Dark
+    buttonBackgroundColor: "0x3F413F"
+    pressedButtonBackgroundColor: "0x1F201F"
+    buttonForegroundColor: "0x267326"
+    pressedButtonForegroundColor: "0x267326"
+    swipeForegroundColor: "0xFAFFF5"
+    pressedSwipeForegroundColor: "0xFAFFF5"
+    buttonBubbleBackgroundColor: "0x1F201F"
+    actionCalloutSelectedForegroundColor: "0x267326"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0xCDF5FFFA"
+    shadowSize: 2
+  G: &a29
+    name: G
+    buttonBackgroundColor: "0xF7FDFF"
+    pressedButtonBackgroundColor: "0xFAFFF5"
+    buttonForegroundColor: "0xCC9933"
+    pressedButtonForegroundColor: "0xCC9933"
+    swipeForegroundColor: "0x78962C"
+    pressedSwipeForegroundColor: "0x78962C"
+    buttonBubbleBackgroundColor: "0xFAFFF5"
+    actionCalloutSelectedForegroundColor: "0xCC9933"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0x000000"
+    shadowSize: 2
+  G-Dark: &a30
+    name: G-Dark
+    buttonBackgroundColor: "0x3F413F"
+    pressedButtonBackgroundColor: "0x1F201F"
+    buttonForegroundColor: "0x997326"
+    pressedButtonForegroundColor: "0x997326"
+    swipeForegroundColor: "0xFAFFF5"
+    pressedSwipeForegroundColor: "0xFAFFF5"
+    buttonBubbleBackgroundColor: "0x1F201F"
+    actionCalloutSelectedForegroundColor: "0x997326"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0xCDF5FFFA"
+    shadowSize: 2
+  H: &a31
+    name: H
+    buttonBackgroundColor: "0xF7FDFF"
+    pressedButtonBackgroundColor: "0xFAFFF5"
+    buttonForegroundColor: "0x999933"
+    pressedButtonForegroundColor: "0x999933"
+    swipeForegroundColor: "0x78962C"
+    pressedSwipeForegroundColor: "0x78962C"
+    buttonBubbleBackgroundColor: "0xFAFFF5"
+    actionCalloutSelectedForegroundColor: "0x999933"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0x000000"
+    shadowSize: 2
+  H-Dark: &a32
+    name: H-Dark
+    buttonBackgroundColor: "0x3F413F"
+    pressedButtonBackgroundColor: "0x1F201F"
+    buttonForegroundColor: "0x737326"
+    pressedButtonForegroundColor: "0x737326"
+    swipeForegroundColor: "0xFAFFF5"
+    pressedSwipeForegroundColor: "0xFAFFF5"
+    buttonBubbleBackgroundColor: "0x1F201F"
+    actionCalloutSelectedForegroundColor: "0x737326"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0xCDF5FFFA"
+    shadowSize: 2
+  I: &a15
+    name: I
+    buttonBackgroundColor: "0xF7FDFF"
+    pressedButtonBackgroundColor: "0xFAFFF5"
+    buttonForegroundColor: "0xFFCC00"
+    pressedButtonForegroundColor: "0xFFCC00"
+    swipeForegroundColor: "0x78962C"
+    pressedSwipeForegroundColor: "0x78962C"
+    buttonBubbleBackgroundColor: "0xFAFFF5"
+    actionCalloutSelectedForegroundColor: "0xFFCC00"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0x000000"
+    shadowSize: 2
+  I-Dark: &a16
+    name: I-Dark
+    buttonBackgroundColor: "0x3F413F"
+    pressedButtonBackgroundColor: "0x1F201F"
+    buttonForegroundColor: "0xBF9900"
+    pressedButtonForegroundColor: "0xBF9900"
+    swipeForegroundColor: "0xFAFFF5"
+    pressedSwipeForegroundColor: "0xFAFFF5"
+    buttonBubbleBackgroundColor: "0x1F201F"
+    actionCalloutSelectedForegroundColor: "0xBF9900"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0xCDF5FFFA"
+    shadowSize: 2
+  J: &a33
+    name: J
+    buttonBackgroundColor: "0xF7FDFF"
+    pressedButtonBackgroundColor: "0xFAFFF5"
+    buttonForegroundColor: "0xFF99CC"
+    pressedButtonForegroundColor: "0xFF99CC"
+    swipeForegroundColor: "0x78962C"
+    pressedSwipeForegroundColor: "0x78962C"
+    buttonBubbleBackgroundColor: "0xFAFFF5"
+    actionCalloutSelectedForegroundColor: "0xFF99CC"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0x000000"
+    shadowSize: 2
+  J-Dark: &a34
+    name: J-Dark
+    buttonBackgroundColor: "0x3F413F"
+    pressedButtonBackgroundColor: "0x1F201F"
+    buttonForegroundColor: "0xBF7399"
+    pressedButtonForegroundColor: "0xBF7399"
+    swipeForegroundColor: "0xFAFFF5"
+    pressedSwipeForegroundColor: "0xFAFFF5"
+    buttonBubbleBackgroundColor: "0x1F201F"
+    actionCalloutSelectedForegroundColor: "0xBF7399"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0xCDF5FFFA"
+    shadowSize: 2
+  K: &a35
+    name: K
+    buttonBackgroundColor: "0xF7FDFF"
+    pressedButtonBackgroundColor: "0xFAFFF5"
+    buttonForegroundColor: "0x00CCFF"
+    pressedButtonForegroundColor: "0x00CCFF"
+    swipeForegroundColor: "0x78962C"
+    pressedSwipeForegroundColor: "0x78962C"
+    buttonBubbleBackgroundColor: "0xFAFFF5"
+    actionCalloutSelectedForegroundColor: "0x00CCFF"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0x000000"
+    shadowSize: 2
+  K-Dark: &a36
+    name: K-Dark
+    buttonBackgroundColor: "0x3F413F"
+    pressedButtonBackgroundColor: "0x1F201F"
+    buttonForegroundColor: "0x0099BF"
+    pressedButtonForegroundColor: "0x0099BF"
+    swipeForegroundColor: "0xFAFFF5"
+    pressedSwipeForegroundColor: "0xFAFFF5"
+    buttonBubbleBackgroundColor: "0x1F201F"
+    actionCalloutSelectedForegroundColor: "0x0099BF"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0xCDF5FFFA"
+    shadowSize: 2
+  L: &a37
+    name: L
+    buttonBackgroundColor: "0xF7FDFF"
+    pressedButtonBackgroundColor: "0xFAFFF5"
+    buttonForegroundColor: "0x666600"
+    pressedButtonForegroundColor: "0x666600"
+    swipeForegroundColor: "0x78962C"
+    pressedSwipeForegroundColor: "0x78962C"
+    buttonBubbleBackgroundColor: "0xFAFFF5"
+    actionCalloutSelectedForegroundColor: "0x666600"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0x000000"
+    shadowSize: 2
+  L-Dark: &a38
+    name: L-Dark
+    buttonBackgroundColor: "0x3F413F"
+    pressedButtonBackgroundColor: "0x1F201F"
+    buttonForegroundColor: "0x686800"
+    pressedButtonForegroundColor: "0x686800"
+    swipeForegroundColor: "0xFAFFF5"
+    pressedSwipeForegroundColor: "0xFAFFF5"
+    buttonBubbleBackgroundColor: "0x1F201F"
+    actionCalloutSelectedForegroundColor: "0x686800"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0xCDF5FFFA"
+    shadowSize: 2
+  M: &a53
+    name: M
+    buttonBackgroundColor: "0xF7FDFF"
+    pressedButtonBackgroundColor: "0xFAFFF5"
+    buttonForegroundColor: "0xFF99CC"
+    pressedButtonForegroundColor: "0xFF99CC"
+    swipeForegroundColor: "0x78962C"
+    pressedSwipeForegroundColor: "0x78962C"
+    buttonBubbleBackgroundColor: "0xFAFFF5"
+    actionCalloutSelectedForegroundColor: "0xFF99CC"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0x000000"
+    shadowSize: 2
+  M-Dark: &a54
+    name: M-Dark
+    buttonBackgroundColor: "0x3F413F"
+    pressedButtonBackgroundColor: "0x1F201F"
+    buttonForegroundColor: "0xBF7399"
+    pressedButtonForegroundColor: "0xBF7399"
+    swipeForegroundColor: "0xFAFFF5"
+    pressedSwipeForegroundColor: "0xFAFFF5"
+    buttonBubbleBackgroundColor: "0x1F201F"
+    actionCalloutSelectedForegroundColor: "0xBF7399"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0xCDF5FFFA"
+    shadowSize: 2
+  N: &a51
+    name: N
+    buttonBackgroundColor: "0xF7FDFF"
+    pressedButtonBackgroundColor: "0xFAFFF5"
+    buttonForegroundColor: "0xFF9966"
+    pressedButtonForegroundColor: "0xFF9966"
+    swipeForegroundColor: "0x78962C"
+    pressedSwipeForegroundColor: "0x78962C"
+    buttonBubbleBackgroundColor: "0xFAFFF5"
+    actionCalloutSelectedForegroundColor: "0xFF9966"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0x000000"
+    shadowSize: 2
+  N-Dark: &a52
+    name: N-Dark
+    buttonBackgroundColor: "0x3F413F"
+    pressedButtonBackgroundColor: "0x1F201F"
+    buttonForegroundColor: "0xBF734D"
+    pressedButtonForegroundColor: "0xBF734D"
+    swipeForegroundColor: "0xFAFFF5"
+    pressedSwipeForegroundColor: "0xFAFFF5"
+    buttonBubbleBackgroundColor: "0x1F201F"
+    actionCalloutSelectedForegroundColor: "0xBF734D"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0xCDF5FFFA"
+    shadowSize: 2
+  O: &a17
+    name: O
+    buttonBackgroundColor: "0xF7FDFF"
+    pressedButtonBackgroundColor: "0xFAFFF5"
+    buttonForegroundColor: "0xFF9900"
+    pressedButtonForegroundColor: "0xFF9900"
+    swipeForegroundColor: "0x78962C"
+    pressedSwipeForegroundColor: "0x78962C"
+    buttonBubbleBackgroundColor: "0xFAFFF5"
+    actionCalloutSelectedForegroundColor: "0xFF9900"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0x000000"
+    shadowSize: 2
+  O-Dark: &a18
+    name: O-Dark
+    buttonBackgroundColor: "0x3F413F"
+    pressedButtonBackgroundColor: "0x1F201F"
+    buttonForegroundColor: "0xBF7300"
+    pressedButtonForegroundColor: "0xBF7300"
+    swipeForegroundColor: "0xFAFFF5"
+    pressedSwipeForegroundColor: "0xFAFFF5"
+    buttonBubbleBackgroundColor: "0x1F201F"
+    actionCalloutSelectedForegroundColor: "0xBF7300"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0xCDF5FFFA"
+    shadowSize: 2
+  P: &a19
+    name: P
+    buttonBackgroundColor: "0xF7FDFF"
+    pressedButtonBackgroundColor: "0xFAFFF5"
+    buttonForegroundColor: "0xFF99FF"
+    pressedButtonForegroundColor: "0xFF99FF"
+    swipeForegroundColor: "0x78962C"
+    pressedSwipeForegroundColor: "0x78962C"
+    buttonBubbleBackgroundColor: "0xFAFFF5"
+    actionCalloutSelectedForegroundColor: "0xFF99FF"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0x000000"
+    shadowSize: 2
+  P-Dark: &a20
+    name: P-Dark
+    buttonBackgroundColor: "0x3F413F"
+    pressedButtonBackgroundColor: "0x1F201F"
+    buttonForegroundColor: "0xBF73BF"
+    pressedButtonForegroundColor: "0xBF73BF"
+    swipeForegroundColor: "0xFAFFF5"
+    pressedSwipeForegroundColor: "0xFAFFF5"
+    buttonBubbleBackgroundColor: "0x1F201F"
+    actionCalloutSelectedForegroundColor: "0xBF73BF"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0xCDF5FFFA"
+    shadowSize: 2
+  Q: &a1
+    name: Q
+    buttonBackgroundColor: "0xF7FDFF"
+    pressedButtonBackgroundColor: "0xFAFFF5"
+    buttonForegroundColor: "0x9966FF"
+    pressedButtonForegroundColor: "0x9966FF"
+    swipeForegroundColor: "0x78962C"
+    pressedSwipeForegroundColor: "0x78962C"
+    buttonBubbleBackgroundColor: "0xFAFFF5"
+    actionCalloutSelectedForegroundColor: "0x9966FF"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0x000000"
+    shadowSize: 2
+  Q-Dark: &a2
+    name: Q-Dark
+    buttonBackgroundColor: "0x3F413F"
+    pressedButtonBackgroundColor: "0x1F201F"
+    buttonForegroundColor: "0x734DBF"
+    pressedButtonForegroundColor: "0x734DBF"
+    swipeForegroundColor: "0xFAFFF5"
+    pressedSwipeForegroundColor: "0xFAFFF5"
+    buttonBubbleBackgroundColor: "0x1F201F"
+    actionCalloutSelectedForegroundColor: "0x734DBF"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0xCDF5FFFA"
+    shadowSize: 2
+  R: &a7
+    name: R
+    buttonBackgroundColor: "0xF7FDFF"
+    pressedButtonBackgroundColor: "0xFAFFF5"
+    buttonForegroundColor: "0x66CCFF"
+    pressedButtonForegroundColor: "0x66CCFF"
+    swipeForegroundColor: "0x78962C"
+    pressedSwipeForegroundColor: "0x78962C"
+    buttonBubbleBackgroundColor: "0xFAFFF5"
+    actionCalloutSelectedForegroundColor: "0x66CCFF"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0x000000"
+    shadowSize: 2
+  R-Dark: &a8
+    name: R-Dark
+    buttonBackgroundColor: "0x3F413F"
+    pressedButtonBackgroundColor: "0x1F201F"
+    buttonForegroundColor: "0x4D99BF"
+    pressedButtonForegroundColor: "0x4D99BF"
+    swipeForegroundColor: "0xFAFFF5"
+    pressedSwipeForegroundColor: "0xFAFFF5"
+    buttonBubbleBackgroundColor: "0x1F201F"
+    actionCalloutSelectedForegroundColor: "0x4D99BF"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0xCDF5FFFA"
+    shadowSize: 2
+  S: &a23
+    name: S
+    buttonBackgroundColor: "0xF7FDFF"
+    pressedButtonBackgroundColor: "0xFAFFF5"
+    buttonForegroundColor: "0x9933FF"
+    pressedButtonForegroundColor: "0x9933FF"
+    swipeForegroundColor: "0x78962C"
+    pressedSwipeForegroundColor: "0x78962C"
+    buttonBubbleBackgroundColor: "0xFAFFF5"
+    actionCalloutSelectedForegroundColor: "0x9933FF"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0x000000"
+    shadowSize: 2
+  S-Dark: &a24
+    name: S-Dark
+    buttonBackgroundColor: "0x3F413F"
+    pressedButtonBackgroundColor: "0x1F201F"
+    buttonForegroundColor: "0x7326BF"
+    pressedButtonForegroundColor: "0x7326BF"
+    swipeForegroundColor: "0xFAFFF5"
+    pressedSwipeForegroundColor: "0xFAFFF5"
+    buttonBubbleBackgroundColor: "0x1F201F"
+    actionCalloutSelectedForegroundColor: "0x7326BF"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0xCDF5FFFA"
+    shadowSize: 2
+  Shift: &a39
+    name: Shift
+    buttonBackgroundColor: "0xF7FDFF"
+    pressedButtonBackgroundColor: "0xFAFFF5"
+    buttonForegroundColor: "0xFACE87"
+    pressedButtonForegroundColor: "0xFACE87"
+    swipeForegroundColor: "0x000000"
+    pressedSwipeForegroundColor: "0x000000"
+    buttonBubbleBackgroundColor: "0xFAFFF5"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0x000000"
+    shadowSize: 2
+  Shift-dark: &a40
+    name: Shift-dark
+    buttonBackgroundColor: "0x3F413F"
+    pressedButtonBackgroundColor: "0x1F201F"
+    buttonForegroundColor: "0xB48246"
+    pressedButtonForegroundColor: "0xB48246"
+    swipeForegroundColor: "0xF7FDFF"
+    pressedSwipeForegroundColor: "0x000000"
+    buttonBubbleBackgroundColor: "0x1F201F"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0xCDF5FFFA"
+    shadowSize: 2
+  Space: &a61
+    name: Space
+    buttonBackgroundColor: "0xF7FDFF"
+    pressedButtonBackgroundColor: "0xFAFFF5"
+    buttonForegroundColor: "0xEBBBB9"
+    pressedButtonForegroundColor: "0xEBBBB9"
+    swipeForegroundColor: "0x000000"
+    pressedSwipeForegroundColor: "0x000000"
+    buttonBubbleBackgroundColor: "0xFAFFF5"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0x000000"
+    shadowSize: 2
+  Space-dark: &a62
+    name: Space-dark
+    buttonBackgroundColor: "0x3F413F"
+    pressedButtonBackgroundColor: "0x1F201F"
+    buttonForegroundColor: "0xB06A68"
+    pressedButtonForegroundColor: "0xB06A68"
+    swipeForegroundColor: "0xFAFFF5"
+    pressedSwipeForegroundColor: "0xFAFFF5"
+    buttonBubbleBackgroundColor: "0x1F201F"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0xCDF5FFFA"
+    shadowSize: 2
+  T: &a9
+    name: T
+    buttonBackgroundColor: "0xF7FDFF"
+    pressedButtonBackgroundColor: "0xFAFFF5"
+    buttonForegroundColor: "0x00CCFF"
+    pressedButtonForegroundColor: "0x00CCFF"
+    swipeForegroundColor: "0x78962C"
+    pressedSwipeForegroundColor: "0x78962C"
+    buttonBubbleBackgroundColor: "0xFAFFF5"
+    actionCalloutSelectedForegroundColor: "0x00CCFF"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0x000000"
+    shadowSize: 2
+  T-Dark: &a10
+    name: T-Dark
+    buttonBackgroundColor: "0x3F413F"
+    pressedButtonBackgroundColor: "0x1F201F"
+    buttonForegroundColor: "0x0099BF"
+    pressedButtonForegroundColor: "0x0099BF"
+    swipeForegroundColor: "0xFAFFF5"
+    pressedSwipeForegroundColor: "0xFAFFF5"
+    buttonBubbleBackgroundColor: "0x1F201F"
+    actionCalloutSelectedForegroundColor: "0x0099BF"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0xCDF5FFFA"
+    shadowSize: 2
+  U: &a13
+    name: U
+    buttonBackgroundColor: "0xF7FDFF"
+    pressedButtonBackgroundColor: "0xFAFFF5"
+    buttonForegroundColor: "0xCCCC00"
+    pressedButtonForegroundColor: "0xCCCC00"
+    swipeForegroundColor: "0x78962C"
+    pressedSwipeForegroundColor: "0x78962C"
+    buttonBubbleBackgroundColor: "0xFAFFF5"
+    actionCalloutSelectedForegroundColor: "0xCCCC00"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0x000000"
+    shadowSize: 2
+  U-Dark: &a14
+    name: U-Dark
+    buttonBackgroundColor: "0x3F413F"
+    pressedButtonBackgroundColor: "0x1F201F"
+    buttonForegroundColor: "0x999900"
+    pressedButtonForegroundColor: "0x999900"
+    swipeForegroundColor: "0xFAFFF5"
+    pressedSwipeForegroundColor: "0xFAFFF5"
+    buttonBubbleBackgroundColor: "0x1F201F"
+    actionCalloutSelectedForegroundColor: "0x999900"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0xCDF5FFFA"
+    shadowSize: 2
+  V: &a47
+    name: V
+    buttonBackgroundColor: "0xF7FDFF"
+    pressedButtonBackgroundColor: "0xFAFFF5"
+    buttonForegroundColor: "0x00CC99"
+    pressedButtonForegroundColor: "0x00CC99"
+    swipeForegroundColor: "0x78962C"
+    pressedSwipeForegroundColor: "0x78962C"
+    buttonBubbleBackgroundColor: "0xFAFFF5"
+    actionCalloutSelectedForegroundColor: "0x00CC99"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0x000000"
+    shadowSize: 2
+  V-Dark: &a48
+    name: V-Dark
+    buttonBackgroundColor: "0x3F413F"
+    pressedButtonBackgroundColor: "0x1F201F"
+    buttonForegroundColor: "0x009973"
+    pressedButtonForegroundColor: "0x009973"
+    swipeForegroundColor: "0xFAFFF5"
+    pressedSwipeForegroundColor: "0xFAFFF5"
+    buttonBubbleBackgroundColor: "0x1F201F"
+    actionCalloutSelectedForegroundColor: "0x009973"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0xCDF5FFFA"
+    shadowSize: 2
+  W: &a3
+    name: W
+    buttonBackgroundColor: "0xF7FDFF"
+    pressedButtonBackgroundColor: "0xFAFFF5"
+    buttonForegroundColor: "0x9999FF"
+    pressedButtonForegroundColor: "0x9999FF"
+    swipeForegroundColor: "0x78962C"
+    pressedSwipeForegroundColor: "0x78962C"
+    buttonBubbleBackgroundColor: "0xFAFFF5"
+    actionCalloutSelectedForegroundColor: "0x9999FF"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0x000000"
+    shadowSize: 2
+  W-Dark: &a4
+    name: W-Dark
+    buttonBackgroundColor: "0x3F413F"
+    pressedButtonBackgroundColor: "0x1F201F"
+    buttonForegroundColor: "0x7373BF"
+    pressedButtonForegroundColor: "0x7373BF"
+    swipeForegroundColor: "0xFAFFF5"
+    pressedSwipeForegroundColor: "0xFAFFF5"
+    buttonBubbleBackgroundColor: "0x1F201F"
+    actionCalloutSelectedForegroundColor: "0x7373BF"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0xCDF5FFFA"
+    shadowSize: 2
+  X: &a43
+    name: X
+    buttonBackgroundColor: "0xF7FDFF"
+    pressedButtonBackgroundColor: "0xFAFFF5"
+    buttonForegroundColor: "0x6699FF"
+    pressedButtonForegroundColor: "0x6699FF"
+    swipeForegroundColor: "0x78962C"
+    pressedSwipeForegroundColor: "0x78962C"
+    buttonBubbleBackgroundColor: "0xFAFFF5"
+    actionCalloutSelectedForegroundColor: "0x6699FF"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0x000000"
+    shadowSize: 2
+  X-Dark: &a44
+    name: X-Dark
+    buttonBackgroundColor: "0x3F413F"
+    pressedButtonBackgroundColor: "0x1F201F"
+    buttonForegroundColor: "0x4D73BF"
+    pressedButtonForegroundColor: "0x4D73BF"
+    swipeForegroundColor: "0xFAFFF5"
+    pressedSwipeForegroundColor: "0xFAFFF5"
+    buttonBubbleBackgroundColor: "0x1F201F"
+    actionCalloutSelectedForegroundColor: "0x4D73BF"
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0xCDF5FFFA"
+    shadowSize: 2
+  Y: &a11
+    name: Y
+    buttonBackgroundColor: "0xF7FDFF"
+    pressedButtonBackgroundColor: "0xFAFFF5"
+    buttonForegroundColor: "0x66CC00"
+    pressedButtonForegroundColor: "0x66CC00"
+    swipeForegroundColor: "0x78962C"
+    pressedSwipeForegroundColor: "0x78962C"
+    buttonBubbleBackgroundColor: "0xFAFFF5"
+    actionCalloutSelectedForegroundColor: "0x66CC00"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0x000000"
+    shadowSize: 2
+  Y-Dark: &a12
+    name: Y-Dark
+    buttonBackgroundColor: "0x3F413F"
+    pressedButtonBackgroundColor: "0x1F201F"
+    buttonForegroundColor: "0x4D9900"
+    pressedButtonForegroundColor: "0x4D9900"
+    swipeForegroundColor: "0xFAFFF5"
+    pressedSwipeForegroundColor: "0xFAFFF5"
+    buttonBubbleBackgroundColor: "0x1F201F"
+    actionCalloutSelectedForegroundColor: "0x4D9900"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0xCDF5FFFA"
+    shadowSize: 2
+  Z: &a41
+    name: Z
+    buttonBackgroundColor: "0xF7FDFF"
+    pressedButtonBackgroundColor: "0xFAFFF5"
+    buttonForegroundColor: "0x6666FF"
+    pressedButtonForegroundColor: "0x6666FF"
+    swipeForegroundColor: "0x78962C"
+    pressedSwipeForegroundColor: "0x78962C"
+    buttonBubbleBackgroundColor: "0xFAFFF5"
+    actionCalloutSelectedForegroundColor: "0x6666FF"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0x000000"
+    shadowSize: 2
+  Z-Dark: &a42
+    name: Z-Dark
+    buttonBackgroundColor: "0x3F413F"
+    pressedButtonBackgroundColor: "0x1F201F"
+    buttonForegroundColor: "0x4D4DBF"
+    pressedButtonForegroundColor: "0x4D4DBF"
+    swipeForegroundColor: "0xFAFFF5"
+    pressedSwipeForegroundColor: "0xFAFFF5"
+    buttonBubbleBackgroundColor: "0x1F201F"
+    actionCalloutSelectedForegroundColor: "0x4D4DBF"
+    cornerRadius: 9
+    borderSize: 1
+    borderColor: "0x2D000000"
+    lowerEdgeColor: "0x7D000000"
+    shadowColor: "0xCDF5FFFA"
+    shadowSize: 2
+keyboards:
+  - name: Chinese_Srainbow
+    isPrimary: true
+    rows:
+      - keys:
+          - action:
+              character:
+                char: Q
+            width:
+              percentage: 0.1
+            label: Q
+            swipe:
+              - action:
+                  character:
+                    char: "1"
+                label: "1"
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: ！
+                label: ！
+                display: true
+                processByRIME: true
+                direction: down
+            callout:
+              - action:
+                  symbol:
+                    char: 壹
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 一
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ㊀
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 1️⃣
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➀
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ①
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➊
+                label:
+                  text: ""
+            lightModeStyleName: Q
+            darkModeStyleName: Q-Dark
+          - action:
+              character:
+                char: W
+            width:
+              percentage: 0.1
+            label: W
+            swipe:
+              - action:
+                  character:
+                    char: "2"
+                label: "2"
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: "@"
+                label: "@"
+                display: true
+                processByRIME: true
+                direction: down
+            callout:
+              - action:
+                  symbol:
+                    char: 贰
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 二
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ㊁
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 2️⃣
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➁
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ②
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➋
+                label:
+                  text: ""
+            lightModeStyleName: W
+            darkModeStyleName: W-Dark
+          - action:
+              character:
+                char: E
+            width:
+              percentage: 0.1
+            label: E
+            swipe:
+              - action:
+                  character:
+                    char: "3"
+                label: "3"
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: "#"
+                label: "#"
+                display: true
+                processByRIME: true
+                direction: down
+            callout:
+              - action:
+                  symbol:
+                    char: 叁
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 三
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ㊂
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 3️⃣
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➂
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ③
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➌
+                label:
+                  text: ""
+            lightModeStyleName: E
+            darkModeStyleName: E-Dark
+          - action:
+              character:
+                char: R
+            width:
+              percentage: 0.1
+            label: R
+            swipe:
+              - action:
+                  character:
+                    char: "4"
+                label: "4"
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: ¥
+                label: ¥
+                display: true
+                processByRIME: false
+                direction: down
+              - action:
+                  character:
+                    char: $
+                label: $
+                display: true
+                processByRIME: false
+                direction: right
+            callout:
+              - action:
+                  symbol:
+                    char: 肆
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 四
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ㊃
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 4️⃣
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➃
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ④
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➍
+                label:
+                  text: ""
+            lightModeStyleName: R
+            darkModeStyleName: R-Dark
+          - action:
+              character:
+                char: T
+            width:
+              percentage: 0.1
+            label: T
+            swipe:
+              - action:
+                  character:
+                    char: "5"
+                label: "5"
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: "%"
+                label: "%"
+                display: true
+                processByRIME: true
+                direction: down
+            callout:
+              - action:
+                  symbol:
+                    char: 伍
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 五
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ㊄
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 5️⃣
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➄
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ⑤
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➎
+                label:
+                  text: ""
+            lightModeStyleName: T
+            darkModeStyleName: T-Dark
+          - action:
+              character:
+                char: Y
+            width:
+              percentage: 0.1
+            label: Y
+            swipe:
+              - action:
+                  character:
+                    char: "6"
+                label: "6"
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: ^
+                label: ^
+                display: true
+                processByRIME: true
+                direction: down
+            callout:
+              - action:
+                  symbol:
+                    char: 陆
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 六
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ㊅
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 6️⃣
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➅
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ⑥
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➏
+                label:
+                  text: ""
+            lightModeStyleName: Y
+            darkModeStyleName: Y-Dark
+          - action:
+              character:
+                char: U
+            width:
+              percentage: 0.1
+            label: U
+            swipe:
+              - action:
+                  character:
+                    char: "7"
+                label: "7"
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: "&"
+                label: "&"
+                display: true
+                processByRIME: true
+                direction: down
+            callout:
+              - action:
+                  symbol:
+                    char: 柒
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 七
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ㊆
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 7️⃣
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➆
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ⑦
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➐
+                label:
+                  text: ""
+            lightModeStyleName: U
+            darkModeStyleName: U-Dark
+          - action:
+              character:
+                char: I
+            width:
+              percentage: 0.1
+            label: I
+            swipe:
+              - action:
+                  character:
+                    char: "8"
+                label: "8"
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: "*"
+                label: "*"
+                display: true
+                processByRIME: true
+                direction: down
+            callout:
+              - action:
+                  symbol:
+                    char: 捌
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 八
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ㊇
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 8️⃣
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➇
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ⑧
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➑
+                label:
+                  text: ""
+            lightModeStyleName: I
+            darkModeStyleName: I-Dark
+          - action:
+              character:
+                char: O
+            width:
+              percentage: 0.1
+            label: O
+            swipe:
+              - action:
+                  character:
+                    char: "9"
+                label: "9"
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: (
+                label: (
+                display: true
+                processByRIME: true
+                direction: down
+            callout:
+              - action:
+                  symbol:
+                    char: 玖
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 九
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ㊈
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 9️⃣
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➈
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ⑨
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➒
+                label:
+                  text: ""
+            lightModeStyleName: O
+            darkModeStyleName: O-Dark
+          - action:
+              character:
+                char: P
+            width:
+              percentage: 0.1
+            label: P
+            swipe:
+              - action:
+                  character:
+                    char: "0"
+                label: "0"
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: )
+                label: )
+                display: true
+                processByRIME: true
+                direction: down
+            callout:
+              - action:
+                  symbol:
+                    char: 零
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➓
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ⑩
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 🔟
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 拾
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 佰
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 仟
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 万
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 亿
+                label:
+                  text: ""
+            lightModeStyleName: P
+            darkModeStyleName: P-Dark
+        rowHeight: 52.4
+      - keys:
+          - action: none
+            width: available
+            label:
+              text: ""
+          - action:
+              character:
+                char: A
+            width:
+              percentage: 0.1
+            label: A
+            swipe:
+              - action:
+                  character:
+                    char: "`"
+                label: "`"
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: "~"
+                label: "~"
+                display: true
+                processByRIME: true
+                direction: down
+            lightModeStyleName: A
+            darkModeStyleName: A-Dark
+          - action:
+              character:
+                char: S
+            width:
+              percentage: 0.1
+            label: S
+            swipe:
+              - action:
+                  character:
+                    char: "-"
+                label: "-"
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: _
+                label: _
+                display: true
+                processByRIME: false
+                direction: down
+            lightModeStyleName: S
+            darkModeStyleName: S-Dark
+          - action:
+              character:
+                char: D
+            width:
+              percentage: 0.1
+            label: D
+            swipe:
+              - action:
+                  character:
+                    char: =
+                label: =
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: +
+                label: +
+                display: true
+                processByRIME: true
+                direction: down
+            lightModeStyleName: D
+            darkModeStyleName: D-Dark
+          - action:
+              character:
+                char: F
+            width:
+              percentage: 0.1
+            label: F
+            swipe:
+              - action:
+                  character:
+                    char: "["
+                label: "["
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: "{"
+                label: "{"
+                display: true
+                processByRIME: true
+                direction: down
+            lightModeStyleName: F
+            darkModeStyleName: F-Dark
+          - action:
+              character:
+                char: G
+            width:
+              percentage: 0.1
+            label: G
+            swipe:
+              - action:
+                  character:
+                    char: "]"
+                label: "]"
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: "}"
+                label: "}"
+                display: true
+                processByRIME: true
+                direction: down
+            lightModeStyleName: G
+            darkModeStyleName: G-Dark
+          - action:
+              character:
+                char: H
+            width:
+              percentage: 0.1
+            label: H
+            swipe:
+              - action:
+                  character:
+                    char: \
+                label: \
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: "|"
+                label: "|"
+                display: true
+                processByRIME: true
+                direction: down
+            lightModeStyleName: H
+            darkModeStyleName: H-Dark
+          - action:
+              character:
+                char: J
+            width:
+              percentage: 0.1
+            label: J
+            swipe:
+              - action:
+                  character:
+                    char: /
+                label: /
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: "?"
+                label: "?"
+                display: true
+                processByRIME: true
+                direction: down
+            lightModeStyleName: J
+            darkModeStyleName: J-Dark
+          - action:
+              character:
+                char: K
+            width:
+              percentage: 0.1
+            label: K
+            swipe:
+              - action:
+                  character:
+                    char: ;
+                label: ;
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: ":"
+                label: ":"
+                display: true
+                processByRIME: true
+                direction: down
+            lightModeStyleName: K
+            darkModeStyleName: K-Dark
+          - action:
+              character:
+                char: L
+            width:
+              percentage: 0.1
+            label: L
+            swipe:
+              - action:
+                  character:
+                    char: "'"
+                label: "'"
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: '"'
+                label: '"'
+                display: true
+                processByRIME: true
+                direction: down
+            lightModeStyleName: L
+            darkModeStyleName: L-Dark
+          - action: none
+            width: available
+            label:
+              text: ""
+        rowHeight: 52.4
+      - keys:
+          - action: shift
+            width:
+              percentage: 0.13
+            label:
+              text: ""
+            swipe:
+              - action: tab
+                label:
+                  text: ""
+                display: false
+                processByRIME: true
+                direction: up
+            lightModeStyleName: Shift
+            darkModeStyleName: Shift-dark
+          - action: none
+            width: available
+            label:
+              text: ""
+          - action:
+              character:
+                char: Z
+            width:
+              percentage: 0.1
+            label: Z
+            swipe:
+              - action:
+                  character:
+                    char: ‘’
+                label: ‘’
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  shortcutCommand: "#撤销"
+                label: 
+                display: true
+                processByRIME: true
+                direction: down
+            callout:
+              - action:
+                  shortcutCommand: "#行首"
+                label: 󰅯
+              - action:
+                  shortcutCommand: "#左移"
+                label: 󰮹
+              - action:
+                  shortcutCommand: "#右移"
+                label: 󰮺
+              - action:
+                  shortcutCommand: "#行尾"
+                label: 󰅭
+            lightModeStyleName: Z
+            darkModeStyleName: Z-Dark
+          - action:
+              character:
+                char: X
+            width:
+              percentage: 0.1
+            label: X
+            swipe:
+              - action:
+                  character:
+                    char: ","
+                label: ","
+                display: true
+                processByRIME: false
+                direction: up
+              - action:
+                  character:
+                    char: <
+                label: <
+                display: true
+                processByRIME: false
+                direction: down
+            callout:
+              - action:
+                  shortcutCommand: "#剪切"
+                label: 󱫊
+            lightModeStyleName: X
+            darkModeStyleName: X-Dark
+          - action:
+              character:
+                char: C
+            width:
+              percentage: 0.1
+            label: C
+            swipe:
+              - action:
+                  character:
+                    char: .
+                label: .
+                display: true
+                processByRIME: false
+                direction: up
+              - action:
+                  character:
+                    char: ">"
+                label: ">"
+                display: true
+                processByRIME: false
+                direction: down
+            callout:
+              - action:
+                  shortcutCommand: "#复制"
+                label: 󱫉
+            lightModeStyleName: C
+            darkModeStyleName: C-Dark
+          - action:
+              character:
+                char: V
+            width:
+              percentage: 0.1
+            label: V
+            swipe:
+              - action:
+                  character:
+                    char: “”
+                label: “”
+                display: true
+                processByRIME: false
+                direction: up
+              - action:
+                  character:
+                    char: ，
+                label: ，
+                display: true
+                processByRIME: false
+                direction: down
+            callout:
+              - action:
+                  shortcutCommand: "#粘贴"
+                label: 󰅏
+            lightModeStyleName: V
+            darkModeStyleName: V-Dark
+          - action:
+              character:
+                char: B
+            width:
+              percentage: 0.1
+            label: B
+            swipe:
+              - action:
+                  character:
+                    char: 《》
+                label: 《》
+                display: true
+                processByRIME: false
+                direction: up
+              - action:
+                  character:
+                    char: 。
+                label: 。
+                display: true
+                processByRIME: false
+                direction: down
+            lightModeStyleName: B
+            darkModeStyleName: B-Dark
+          - action:
+              character:
+                char: N
+            width:
+              percentage: 0.1
+            label: N
+            swipe:
+              - action:
+                  character:
+                    char: 『』
+                label: 『』
+                display: true
+                processByRIME: false
+                direction: up
+              - action:
+                  character:
+                    char: 、
+                label: 、
+                display: true
+                processByRIME: false
+                direction: down
+            lightModeStyleName: N
+            darkModeStyleName: N-Dark
+          - action:
+              character:
+                char: M
+            width:
+              percentage: 0.1
+            label: M
+            swipe:
+              - action:
+                  character:
+                    char: "`"
+                label:
+                  text: ""
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: M
+            darkModeStyleName: M-Dark
+          - action: none
+            width: available
+            label:
+              text: ""
+          - action: backspace
+            width:
+              percentage: 0.13
+            label: 󰣙
+            callout:
+              - action:
+                  shortcutCommand: "#清空"
+                label: 󰺝
+            lightModeStyleName: Delete
+            darkModeStyleName: Delete-dark
+        rowHeight: 52.4
+      - keys:
+          - action:
+              shortcutCommand: "#中英切换"
+            processByRIME: false
+            width:
+              percentage: 0.2
+            label: 󰨡
+            lightModeStyleName: EN
+            darkModeStyleName: EN-Dark
+          - action:
+              keyboardType: Digit_Srainbow
+            width:
+              percentage: 0.1
+            label: 
+            callout:
+              - action:
+                  keyboardType: Symbol_Srainbow
+                label: 
+              - action:
+                  keyboardType: Nine_square_Srainbow
+                label: 
+            lightModeStyleName: Digit
+            darkModeStyleName: Digit-dark
+          - action: space
+            width:
+              percentage: 0.4
+            label: 󰔁pace
+            swipe:
+              - action:
+                  shortcutCommand: "#次选上屏"
+                label:
+                  text: ""
+                display: false
+                processByRIME: true
+                direction: up
+              - action:
+                  shortcutCommand: "#三选上屏"
+                label:
+                  text: ""
+                display: false
+                processByRIME: true
+                direction: down
+            lightModeStyleName: Space
+            darkModeStyleName: Space-dark
+          - action:
+              shortcutCommand: "#简繁切换"
+            width:
+              percentage: 0.1
+            label: 󰏚
+            swipe:
+              - action:
+                  keyboardType: emojis
+                label:
+                  text: ""
+                display: false
+                processByRIME: true
+                direction: up
+            callout:
+              - action:
+                  shortcutCommand: "#全选"
+                label: 󱫆
+              - action:
+                  shortcutCommand: "#剪切"
+                label: 󱫊
+              - action:
+                  shortcutCommand: "#复制"
+                label: 󱫉
+              - action:
+                  shortcutCommand: "#粘贴"
+                label: 󰅏
+            lightModeStyleName: Emojis
+            darkModeStyleName: Emojis-Dark
+          - action: enter
+            width:
+              percentage: 0.2
+            label: 
+            swipe:
+              - action:
+                  shortcutCommand: "#换行"
+                label:
+                  text: ""
+                display: false
+                processByRIME: true
+                direction: up
+            callout:
+              - action:
+                  shortcutCommand: "#换行"
+                label: " "
+            lightModeStyleName: Enter
+            darkModeStyleName: Enter-dark
+        rowHeight: 52.4
+    buttonInsets:
+      left: 3
+      bottom: 4
+      top: 8
+      right: 3
+    keyStyle:
+      Q: *a1
+      Q-Dark: *a2
+      W: *a3
+      W-Dark: *a4
+      E: *a5
+      E-Dark: *a6
+      R: *a7
+      R-Dark: *a8
+      T: *a9
+      T-Dark: *a10
+      Y: *a11
+      Y-Dark: *a12
+      U: *a13
+      U-Dark: *a14
+      I: *a15
+      I-Dark: *a16
+      O: *a17
+      O-Dark: *a18
+      P: *a19
+      P-Dark: *a20
+      A: *a21
+      A-Dark: *a22
+      S: *a23
+      S-Dark: *a24
+      D: *a25
+      D-Dark: *a26
+      F: *a27
+      F-Dark: *a28
+      G: *a29
+      G-Dark: *a30
+      H: *a31
+      H-Dark: *a32
+      J: *a33
+      J-Dark: *a34
+      K: *a35
+      K-Dark: *a36
+      L: *a37
+      L-Dark: *a38
+      Shift: *a39
+      Shift-dark: *a40
+      Z: *a41
+      Z-Dark: *a42
+      X: *a43
+      X-Dark: *a44
+      C: *a45
+      C-Dark: *a46
+      V: *a47
+      V-Dark: *a48
+      B: *a49
+      B-Dark: *a50
+      N: *a51
+      N-Dark: *a52
+      M: *a53
+      M-Dark: *a54
+      Delete: *a55
+      Delete-dark: *a56
+      EN: *a57
+      EN-Dark: *a58
+      Digit: *a59
+      Digit-dark: *a60
+      Space: *a61
+      Space-dark: *a62
+      Emojis: *a63
+      Emojis-Dark: *a64
+      Enter: *a65
+      Enter-dark: *a66
+  - name: Symbol_Srainbow
+    isPrimary: false
+    rows:
+      - keys:
+          - action:
+              character:
+                char: 【
+            width:
+              percentage: 0.1
+            label: 【
+            lightModeStyleName: A
+            darkModeStyleName: A-Dark
+          - action:
+              character:
+                char: 】
+            width:
+              percentage: 0.1
+            label: 】
+            lightModeStyleName: B
+            darkModeStyleName: B-Dark
+          - action:
+              character:
+                char: ｛
+            width:
+              percentage: 0.1
+            label: ﹛
+            lightModeStyleName: C
+            darkModeStyleName: C-Dark
+          - action:
+              character:
+                char: ｝
+            width:
+              percentage: 0.1
+            label: ﹜
+            lightModeStyleName: D
+            darkModeStyleName: D-Dark
+          - action:
+              character:
+                char: "#"
+            width:
+              percentage: 0.1
+            label: "#"
+            lightModeStyleName: E
+            darkModeStyleName: E-Dark
+          - action:
+              character:
+                char: "%"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: F
+            darkModeStyleName: F-Dark
+          - action:
+              character:
+                char: ……
+            width:
+              percentage: 0.1
+            label: ^
+            lightModeStyleName: G
+            darkModeStyleName: G-Dark
+          - action:
+              character:
+                char: "*"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: H
+            darkModeStyleName: H-Dark
+          - action:
+              character:
+                char: +
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: J
+            darkModeStyleName: J-Dark
+          - action:
+              character:
+                char: =
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: K
+            darkModeStyleName: K-Dark
+        rowHeight: 52.4
+      - keys:
+          - action:
+              character:
+                char: _
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: K
+            darkModeStyleName: K-Dark
+          - action:
+              character:
+                char: "-"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: L
+            darkModeStyleName: L-Dark
+          - action:
+              character:
+                char: \
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: M
+            darkModeStyleName: M-Dark
+          - action:
+              character:
+                char: ｜
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: N
+            darkModeStyleName: N-Dark
+          - action:
+              character:
+                char: "`"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: O
+            darkModeStyleName: O-Dark
+          - action:
+              character:
+                char: 《
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: P
+            darkModeStyleName: P-Dark
+          - action:
+              character:
+                char: 》
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: Q
+            darkModeStyleName: Q-Dark
+          - action:
+              character:
+                char: $
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: R
+            darkModeStyleName: R-Dark
+          - action:
+              character:
+                char: "&"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: S
+            darkModeStyleName: S-Dark
+          - action:
+              character:
+                char: .
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: T
+            darkModeStyleName: T-Dark
+        rowHeight: 52.4
+      - keys:
+          - action:
+              keyboardType: Digit_Srainbow
+            width:
+              percentage: 0.13
+            label: 
+            callout:
+              - action:
+                  keyboardType: Nine_square_Srainbow
+                label: 
+            lightModeStyleName: Digit
+            darkModeStyleName: Digit-dark
+          - action: none
+            width:
+              percentage: 0.02
+            label:
+              text: ""
+          - action:
+              character:
+                char: …
+            width:
+              percentage: 0.14
+            label:
+              text: ""
+            lightModeStyleName: U
+            darkModeStyleName: U-Dark
+          - action:
+              character:
+                char: ，
+            width:
+              percentage: 0.14
+            label:
+              text: ""
+            lightModeStyleName: V
+            darkModeStyleName: V-Dark
+          - action:
+              character:
+                char: "?"
+            width:
+              percentage: 0.14
+            label:
+              text: ""
+            lightModeStyleName: W
+            darkModeStyleName: W-Dark
+          - action:
+              character:
+                char: "!"
+            width:
+              percentage: 0.14
+            label:
+              text: ""
+            lightModeStyleName: X
+            darkModeStyleName: X-Dark
+          - action:
+              character:
+                char: "'"
+            width:
+              percentage: 0.14
+            label:
+              text: ""
+            lightModeStyleName: Y
+            darkModeStyleName: Y-Dark
+          - action: none
+            width:
+              percentage: 0.02
+            label:
+              text: ""
+          - action: backspace
+            width:
+              percentage: 0.13
+            label: 󰣙
+            lightModeStyleName: Delete
+            darkModeStyleName: Delete-dark
+        rowHeight: 52.4
+      - keys:
+          - action:
+              keyboardType: Chinese_Srainbow
+            width:
+              percentage: 0.2
+            label: 󰢶
+            lightModeStyleName: EN
+            darkModeStyleName: EN-Dark
+          - action: none
+            width:
+              percentage: 0.01
+            label:
+              text: ""
+          - action: space
+            width: available
+            label: 󰔁pace
+            lightModeStyleName: Space
+            darkModeStyleName: Space-dark
+          - action: none
+            width:
+              percentage: 0.01
+            label:
+              text: ""
+          - action: enter
+            width:
+              percentage: 0.2
+            label: 
+            swipe:
+              - action:
+                  shortcutCommand: "#换行"
+                label:
+                  text: ""
+                display: false
+                processByRIME: false
+                direction: up
+            lightModeStyleName: Enter
+            darkModeStyleName: Enter-dark
+        rowHeight: 52.4
+    buttonInsets:
+      left: 3
+      bottom: 4
+      top: 8
+      right: 3
+    keyStyle:
+      A: *a21
+      A-Dark: *a22
+      B: *a49
+      B-Dark: *a50
+      C: *a45
+      C-Dark: *a46
+      D: *a25
+      D-Dark: *a26
+      E: *a5
+      E-Dark: *a6
+      F: *a27
+      F-Dark: *a28
+      G: *a29
+      G-Dark: *a30
+      H: *a31
+      H-Dark: *a32
+      J: *a33
+      J-Dark: *a34
+      K: *a35
+      K-Dark: *a36
+      L: *a37
+      L-Dark: *a38
+      M: *a53
+      M-Dark: *a54
+      N: *a51
+      N-Dark: *a52
+      O: *a17
+      O-Dark: *a18
+      P: *a19
+      P-Dark: *a20
+      Q: *a1
+      Q-Dark: *a2
+      R: *a7
+      R-Dark: *a8
+      S: *a23
+      S-Dark: *a24
+      T: *a9
+      T-Dark: *a10
+      Digit: *a59
+      Digit-dark: *a60
+      U: *a13
+      U-Dark: *a14
+      V: *a47
+      V-Dark: *a48
+      W: *a3
+      W-Dark: *a4
+      X: *a43
+      X-Dark: *a44
+      Y: *a11
+      Y-Dark: *a12
+      Delete: *a55
+      Delete-dark: *a56
+      EN: *a57
+      EN-Dark: *a58
+      Space: *a61
+      Space-dark: *a62
+      Enter: *a65
+      Enter-dark: *a66
+  - name: Digit_Srainbow
+    isPrimary: false
+    rows:
+      - keys:
+          - action:
+              character:
+                char: "1"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: A
+            darkModeStyleName: A-Dark
+          - action:
+              character:
+                char: "2"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: B
+            darkModeStyleName: B-Dark
+          - action:
+              character:
+                char: "3"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: C
+            darkModeStyleName: C-Dark
+          - action:
+              character:
+                char: "4"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: D
+            darkModeStyleName: D-Dark
+          - action:
+              character:
+                char: "5"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: E
+            darkModeStyleName: E-Dark
+          - action:
+              character:
+                char: "6"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: F
+            darkModeStyleName: F-Dark
+          - action:
+              character:
+                char: "7"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: G
+            darkModeStyleName: G-Dark
+          - action:
+              character:
+                char: "8"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: H
+            darkModeStyleName: H-Dark
+          - action:
+              character:
+                char: "9"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: I
+            darkModeStyleName: I-Dark
+          - action:
+              character:
+                char: "0"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: J
+            darkModeStyleName: J-Dark
+        rowHeight: 52.4
+      - keys:
+          - action:
+              character:
+                char: "-"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: K
+            darkModeStyleName: K-Dark
+          - action:
+              character:
+                char: /
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: L
+            darkModeStyleName: L-Dark
+          - action:
+              character:
+                char: ：
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: M
+            darkModeStyleName: M-Dark
+          - action:
+              character:
+                char: ；
+            width:
+              percentage: 0.1
+            label: ﹔
+            lightModeStyleName: N
+            darkModeStyleName: N-Dark
+          - action:
+              character:
+                char: (
+            width:
+              percentage: 0.1
+            label: ﹙
+            lightModeStyleName: O
+            darkModeStyleName: O-Dark
+          - action:
+              character:
+                char: )
+            width:
+              percentage: 0.1
+            label: ﹚
+            lightModeStyleName: P
+            darkModeStyleName: P-Dark
+          - action:
+              character:
+                char: $
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: Q
+            darkModeStyleName: Q-Dark
+          - action:
+              character:
+                char: "&"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: R
+            darkModeStyleName: R-Dark
+          - action:
+              character:
+                char: "@"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: S
+            darkModeStyleName: S-Dark
+          - action:
+              character:
+                char: '"'
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: T
+            darkModeStyleName: T-Dark
+        rowHeight: 52.4
+      - keys:
+          - action:
+              keyboardType: Symbol_Srainbow
+            width:
+              percentage: 0.13
+            label: 
+            lightModeStyleName: Digit
+            darkModeStyleName: Digit-dark
+          - action: none
+            width:
+              percentage: 0.02
+            label:
+              text: ""
+          - action:
+              character:
+                char: .
+            width:
+              percentage: 0.14
+            label: ·
+            lightModeStyleName: U
+            darkModeStyleName: U-Dark
+          - action:
+              character:
+                char: ","
+            width:
+              percentage: 0.14
+            label: ﹐
+            lightModeStyleName: V
+            darkModeStyleName: V-Dark
+          - action:
+              character:
+                char: "?"
+            width:
+              percentage: 0.14
+            label:
+              text: ""
+            lightModeStyleName: W
+            darkModeStyleName: W-Dark
+          - action:
+              character:
+                char: "!"
+            width:
+              percentage: 0.14
+            label:
+              text: ""
+            lightModeStyleName: X
+            darkModeStyleName: X-Dark
+          - action:
+              character:
+                char: "'"
+            width:
+              percentage: 0.14
+            label:
+              text: ""
+            lightModeStyleName: Z
+            darkModeStyleName: Z-Dark
+          - action: none
+            width:
+              percentage: 0.02
+            label:
+              text: ""
+          - action: backspace
+            width:
+              percentage: 0.13
+            label: 󰣙
+            lightModeStyleName: Delete
+            darkModeStyleName: Delete-dark
+        rowHeight: 52.4
+      - keys:
+          - action:
+              keyboardType: Chinese_Srainbow
+            width:
+              percentage: 0.2
+            label: 󰢶
+            lightModeStyleName: EN
+            darkModeStyleName: EN-Dark
+          - action: none
+            width:
+              percentage: 0.01
+            label:
+              text: ""
+          - action: space
+            width: available
+            label: 󰔁pace
+            lightModeStyleName: Space
+            darkModeStyleName: Space-dark
+          - action: none
+            width:
+              percentage: 0.01
+            label:
+              text: ""
+          - action: enter
+            width:
+              percentage: 0.2
+            label: 
+            swipe:
+              - action:
+                  shortcutCommand: "#换行"
+                label:
+                  text: ""
+                display: false
+                processByRIME: true
+                direction: up
+            lightModeStyleName: Enter
+            darkModeStyleName: Enter-dark
+        rowHeight: 52.4
+    buttonInsets:
+      left: 3
+      bottom: 4
+      top: 8
+      right: 3
+    keyStyle:
+      A: *a21
+      A-Dark: *a22
+      B: *a49
+      B-Dark: *a50
+      C: *a45
+      C-Dark: *a46
+      D: *a25
+      D-Dark: *a26
+      E: *a5
+      E-Dark: *a6
+      F: *a27
+      F-Dark: *a28
+      G: *a29
+      G-Dark: *a30
+      H: *a31
+      H-Dark: *a32
+      I: *a15
+      I-Dark: *a16
+      J: *a33
+      J-Dark: *a34
+      K: *a35
+      K-Dark: *a36
+      L: *a37
+      L-Dark: *a38
+      M: *a53
+      M-Dark: *a54
+      N: *a51
+      N-Dark: *a52
+      O: *a17
+      O-Dark: *a18
+      P: *a19
+      P-Dark: *a20
+      Q: *a1
+      Q-Dark: *a2
+      R: *a7
+      R-Dark: *a8
+      S: *a23
+      S-Dark: *a24
+      T: *a9
+      T-Dark: *a10
+      Digit: *a59
+      Digit-dark: *a60
+      U: *a13
+      U-Dark: *a14
+      V: *a47
+      V-Dark: *a48
+      W: *a3
+      W-Dark: *a4
+      X: *a43
+      X-Dark: *a44
+      Z: *a41
+      Z-Dark: *a42
+      Delete: *a55
+      Delete-dark: *a56
+      EN: *a57
+      EN-Dark: *a58
+      Space: *a61
+      Space-dark: *a62
+      Enter: *a65
+      Enter-dark: *a66
+  - name: Nine_square_Srainbow
+    isPrimary: false
+    rows:
+      - keys:
+          - action:
+              character:
+                char: +
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: Z
+            darkModeStyleName: Z-Dark
+          - action:
+              character:
+                char: "-"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: Y
+            darkModeStyleName: Y-Dark
+          - action:
+              character:
+                char: "1"
+            width: available
+            label:
+              text: ""
+            lightModeStyleName: A
+            darkModeStyleName: A-Dark
+          - action:
+              character:
+                char: "2"
+            width: available
+            label:
+              text: ""
+            lightModeStyleName: B
+            darkModeStyleName: B-Dark
+          - action:
+              character:
+                char: "3"
+            width: available
+            label:
+              text: ""
+            lightModeStyleName: C
+            darkModeStyleName: C-Dark
+          - action:
+              character:
+                char: =
+            width: available
+            label:
+              text: ""
+            lightModeStyleName: L
+            darkModeStyleName: L-Dark
+      - keys:
+          - action:
+              character:
+                char: "*"
+            width:
+              percentage: 0.1
+            label: ×
+            lightModeStyleName: X
+            darkModeStyleName: X-Dark
+          - action:
+              character:
+                char: /
+            width:
+              percentage: 0.1
+            label: ÷
+            lightModeStyleName: W
+            darkModeStyleName: W-Dark
+          - action:
+              character:
+                char: "4"
+            width: available
+            label:
+              text: ""
+            lightModeStyleName: D
+            darkModeStyleName: D-Dark
+          - action:
+              character:
+                char: "5"
+            width: available
+            label:
+              text: ""
+            lightModeStyleName: E
+            darkModeStyleName: E-Dark
+          - action:
+              character:
+                char: "6"
+            width: available
+            label:
+              text: ""
+            lightModeStyleName: F
+            darkModeStyleName: F-Dark
+          - action:
+              character:
+                char: ":"
+            width: available
+            label:
+              text: ""
+            lightModeStyleName: M
+            darkModeStyleName: M-Dark
+      - keys:
+          - action:
+              character:
+                char: (
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: V
+            darkModeStyleName: V-Dark
+          - action:
+              character:
+                char: )
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: U
+            darkModeStyleName: U-Dark
+          - action:
+              character:
+                char: "7"
+            width: available
+            label:
+              text: ""
+            lightModeStyleName: G
+            darkModeStyleName: G-Dark
+          - action:
+              character:
+                char: "8"
+            width: available
+            label:
+              text: ""
+            lightModeStyleName: H
+            darkModeStyleName: H-Dark
+          - action:
+              character:
+                char: "9"
+            width: available
+            label:
+              text: ""
+            lightModeStyleName: I
+            darkModeStyleName: I-Dark
+          - action: backspace
+            width: available
+            label: 󰣙
+            lightModeStyleName: Delete
+            darkModeStyleName: Delete-dark
+      - keys:
+          - action:
+              keyboardType: Chinese_Srainbow
+            width: available
+            label: 󰢶
+            lightModeStyleName: EN
+            darkModeStyleName: EN-Dark
+          - action:
+              character:
+                char: .
+            width: available
+            label:
+              text: ""
+            lightModeStyleName: K
+            darkModeStyleName: K-Dark
+          - action:
+              character:
+                char: "0"
+            width: available
+            label:
+              text: ""
+            lightModeStyleName: J
+            darkModeStyleName: J-Dark
+          - action: space
+            width: available
+            label: 󰔁pace
+            lightModeStyleName: Space
+            darkModeStyleName: Space-dark
+          - action: enter
+            width: available
+            label: 
+            lightModeStyleName: Enter
+            darkModeStyleName: Enter-dark
+    buttonInsets:
+      left: 3
+      bottom: 4
+      top: 8
+      right: 3
+    keyStyle:
+      Z: *a41
+      Z-Dark: *a42
+      Y: *a11
+      Y-Dark: *a12
+      A: *a21
+      A-Dark: *a22
+      B: *a49
+      B-Dark: *a50
+      C: *a45
+      C-Dark: *a46
+      L: *a37
+      L-Dark: *a38
+      X: *a43
+      X-Dark: *a44
+      W: *a3
+      W-Dark: *a4
+      D: *a25
+      D-Dark: *a26
+      E: *a5
+      E-Dark: *a6
+      F: *a27
+      F-Dark: *a28
+      M: *a53
+      M-Dark: *a54
+      V: *a47
+      V-Dark: *a48
+      U: *a13
+      U-Dark: *a14
+      G: *a29
+      G-Dark: *a30
+      H: *a31
+      H-Dark: *a32
+      I: *a15
+      I-Dark: *a16
+      Delete: *a55
+      Delete-dark: *a56
+      EN: *a57
+      EN-Dark: *a58
+      K: *a35
+      K-Dark: *a36
+      J: *a33
+      J-Dark: *a34
+      Space: *a61
+      Space-dark: *a62
+      Enter: *a65
+      Enter-dark: *a66     
+  - name: Chinese
+    isPrimary: true
+    rows:
+      - keys:
+          - action:
+              character:
+                char: Q
+            width:
+              percentage: 0.1
+            label: Q
+            swipe:
+              - action:
+                  character:
+                    char: "1"
+                label: "1"
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: ！
+                label: ！
+                display: true
+                processByRIME: true
+                direction: down
+            callout:
+              - action:
+                  symbol:
+                    char: 壹
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 一
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ㊀
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 1️⃣
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➀
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ①
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➊
+                label:
+                  text: ""
+            lightModeStyleName: Q
+            darkModeStyleName: Q-Dark
+          - action:
+              character:
+                char: W
+            width:
+              percentage: 0.1
+            label: W
+            swipe:
+              - action:
+                  character:
+                    char: "2"
+                label: "2"
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: "@"
+                label: "@"
+                display: true
+                processByRIME: true
+                direction: down
+            callout:
+              - action:
+                  symbol:
+                    char: 贰
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 二
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ㊁
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 2️⃣
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➁
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ②
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➋
+                label:
+                  text: ""
+            lightModeStyleName: W
+            darkModeStyleName: W-Dark
+          - action:
+              character:
+                char: E
+            width:
+              percentage: 0.1
+            label: E
+            swipe:
+              - action:
+                  character:
+                    char: "3"
+                label: "3"
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: "#"
+                label: "#"
+                display: true
+                processByRIME: true
+                direction: down
+            callout:
+              - action:
+                  symbol:
+                    char: 叁
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 三
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ㊂
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 3️⃣
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➂
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ③
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➌
+                label:
+                  text: ""
+            lightModeStyleName: E
+            darkModeStyleName: E-Dark
+          - action:
+              character:
+                char: R
+            width:
+              percentage: 0.1
+            label: R
+            swipe:
+              - action:
+                  character:
+                    char: "4"
+                label: "4"
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: ¥
+                label: ¥
+                display: true
+                processByRIME: false
+                direction: down
+              - action:
+                  character:
+                    char: $
+                label: $
+                display: true
+                processByRIME: false
+                direction: right
+            callout:
+              - action:
+                  symbol:
+                    char: 肆
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 四
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ㊃
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 4️⃣
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➃
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ④
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➍
+                label:
+                  text: ""
+            lightModeStyleName: R
+            darkModeStyleName: R-Dark
+          - action:
+              character:
+                char: T
+            width:
+              percentage: 0.1
+            label: T
+            swipe:
+              - action:
+                  character:
+                    char: "5"
+                label: "5"
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: "%"
+                label: "%"
+                display: true
+                processByRIME: true
+                direction: down
+            callout:
+              - action:
+                  symbol:
+                    char: 伍
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 五
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ㊄
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 5️⃣
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➄
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ⑤
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➎
+                label:
+                  text: ""
+            lightModeStyleName: T
+            darkModeStyleName: T-Dark
+          - action:
+              character:
+                char: Y
+            width:
+              percentage: 0.1
+            label: Y
+            swipe:
+              - action:
+                  character:
+                    char: "6"
+                label: "6"
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: ^
+                label: ^
+                display: true
+                processByRIME: true
+                direction: down
+            callout:
+              - action:
+                  symbol:
+                    char: 陆
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 六
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ㊅
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 6️⃣
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➅
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ⑥
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➏
+                label:
+                  text: ""
+            lightModeStyleName: Y
+            darkModeStyleName: Y-Dark
+          - action:
+              character:
+                char: U
+            width:
+              percentage: 0.1
+            label: U
+            swipe:
+              - action:
+                  character:
+                    char: "7"
+                label: "7"
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: "&"
+                label: "&"
+                display: true
+                processByRIME: true
+                direction: down
+            callout:
+              - action:
+                  symbol:
+                    char: 柒
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 七
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ㊆
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 7️⃣
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➆
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ⑦
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➐
+                label:
+                  text: ""
+            lightModeStyleName: U
+            darkModeStyleName: U-Dark
+          - action:
+              character:
+                char: I
+            width:
+              percentage: 0.1
+            label: I
+            swipe:
+              - action:
+                  character:
+                    char: "8"
+                label: "8"
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: "*"
+                label: "*"
+                display: true
+                processByRIME: true
+                direction: down
+            callout:
+              - action:
+                  symbol:
+                    char: 捌
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 八
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ㊇
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 8️⃣
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➇
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ⑧
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➑
+                label:
+                  text: ""
+            lightModeStyleName: I
+            darkModeStyleName: I-Dark
+          - action:
+              character:
+                char: O
+            width:
+              percentage: 0.1
+            label: O
+            swipe:
+              - action:
+                  character:
+                    char: "9"
+                label: "9"
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: (
+                label: (
+                display: true
+                processByRIME: true
+                direction: down
+            callout:
+              - action:
+                  symbol:
+                    char: 玖
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 九
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ㊈
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 9️⃣
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➈
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ⑨
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➒
+                label:
+                  text: ""
+            lightModeStyleName: O
+            darkModeStyleName: O-Dark
+          - action:
+              character:
+                char: P
+            width:
+              percentage: 0.1
+            label: P
+            swipe:
+              - action:
+                  character:
+                    char: "0"
+                label: "0"
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: )
+                label: )
+                display: true
+                processByRIME: true
+                direction: down
+            callout:
+              - action:
+                  symbol:
+                    char: 零
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➓
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ⑩
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 🔟
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 拾
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 佰
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 仟
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 万
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 亿
+                label:
+                  text: ""
+            lightModeStyleName: P
+            darkModeStyleName: P-Dark
+        rowHeight: 52.4
+      - keys:
+          - action: none
+            width: available
+            label:
+              text: ""
+          - action:
+              character:
+                char: A
+            width:
+              percentage: 0.1
+            label: A
+            swipe:
+              - action:
+                  character:
+                    char: "`"
+                label: "`"
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: "~"
+                label: "~"
+                display: true
+                processByRIME: true
+                direction: down
+          - action:
+              character:
+                char: S
+            width:
+              percentage: 0.1
+            label: S
+            swipe:
+              - action:
+                  character:
+                    char: "-"
+                label: "-"
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: _
+                label: _
+                display: true
+                processByRIME: false
+                direction: down
+            lightModeStyleName: S
+            darkModeStyleName: S-Dark
+          - action:
+              character:
+                char: D
+            width:
+              percentage: 0.1
+            label: D
+            swipe:
+              - action:
+                  character:
+                    char: =
+                label: =
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: +
+                label: +
+                display: true
+                processByRIME: true
+                direction: down
+            lightModeStyleName: D
+            darkModeStyleName: D-Dark
+          - action:
+              character:
+                char: F
+            width:
+              percentage: 0.1
+            label: F
+            swipe:
+              - action:
+                  character:
+                    char: "["
+                label: "["
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: "{"
+                label: "{"
+                display: true
+                processByRIME: true
+                direction: down
+            lightModeStyleName: F
+            darkModeStyleName: F-Dark
+          - action:
+              character:
+                char: G
+            width:
+              percentage: 0.1
+            label: G
+            swipe:
+              - action:
+                  character:
+                    char: "]"
+                label: "]"
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: "}"
+                label: "}"
+                display: true
+                processByRIME: true
+                direction: down
+            lightModeStyleName: G
+            darkModeStyleName: G-Dark
+          - action:
+              character:
+                char: H
+            width:
+              percentage: 0.1
+            label: H
+            swipe:
+              - action:
+                  character:
+                    char: \
+                label: \
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: "|"
+                label: "|"
+                display: true
+                processByRIME: true
+                direction: down
+            lightModeStyleName: H
+            darkModeStyleName: H-Dark
+          - action:
+              character:
+                char: J
+            width:
+              percentage: 0.1
+            label: J
+            swipe:
+              - action:
+                  character:
+                    char: /
+                label: /
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: "?"
+                label: "?"
+                display: true
+                processByRIME: true
+                direction: down
+            lightModeStyleName: J
+            darkModeStyleName: J-Dark
+          - action:
+              character:
+                char: K
+            width:
+              percentage: 0.1
+            label: K
+            swipe:
+              - action:
+                  character:
+                    char: ;
+                label: ;
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: ":"
+                label: ":"
+                display: true
+                processByRIME: true
+                direction: down
+            lightModeStyleName: K
+            darkModeStyleName: K-Dark
+          - action:
+              character:
+                char: L
+            width:
+              percentage: 0.1
+            label: L
+            swipe:
+              - action:
+                  character:
+                    char: "'"
+                label: "'"
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: '"'
+                label: '"'
+                display: true
+                processByRIME: true
+                direction: down
+            lightModeStyleName: L
+            darkModeStyleName: L-Dark
+          - action: none
+            width: available
+            label:
+              text: ""
+        rowHeight: 52.4
+      - keys:
+          - action: shift
+            width:
+              percentage: 0.13
+            label:
+              text: ""
+            swipe:
+              - action: tab
+                label:
+                  text: ""
+                display: false
+                processByRIME: true
+                direction: up
+            lightModeStyleName: Shift
+            darkModeStyleName: Shift-dark
+          - action: none
+            width: available
+            label:
+              text: ""
+          - action:
+              character:
+                char: Z
+            width:
+              percentage: 0.1
+            label: Z
+            swipe:
+              - action:
+                  character:
+                    char: ‘’
+                label: ‘’
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  shortcutCommand: "#撤销"
+                label: 
+                display: true
+                processByRIME: true
+                direction: down
+            callout:
+              - action:
+                  shortcutCommand: "#行首"
+                label: 󰅯
+              - action:
+                  shortcutCommand: "#左移"
+                label: 󰮹
+              - action:
+                  shortcutCommand: "#右移"
+                label: 󰮺
+              - action:
+                  shortcutCommand: "#行尾"
+                label: 󰅭
+            lightModeStyleName: Z
+            darkModeStyleName: Z-Dark
+          - action:
+              character:
+                char: X
+            width:
+              percentage: 0.1
+            label: X
+            swipe:
+              - action:
+                  character:
+                    char: ","
+                label: ","
+                display: true
+                processByRIME: false
+                direction: up
+              - action:
+                  character:
+                    char: <
+                label: <
+                display: true
+                processByRIME: false
+                direction: down
+            callout:
+              - action:
+                  shortcutCommand: "#剪切"
+                label: 󱫊
+            lightModeStyleName: X
+            darkModeStyleName: X-Dark
+          - action:
+              character:
+                char: C
+            width:
+              percentage: 0.1
+            label: C
+            swipe:
+              - action:
+                  character:
+                    char: .
+                label: .
+                display: true
+                processByRIME: false
+                direction: up
+              - action:
+                  character:
+                    char: ">"
+                label: ">"
+                display: true
+                processByRIME: false
+                direction: down
+            callout:
+              - action:
+                  shortcutCommand: "#复制"
+                label: 󱫉
+            lightModeStyleName: C
+            darkModeStyleName: C-Dark
+          - action:
+              character:
+                char: V
+            width:
+              percentage: 0.1
+            label: V
+            swipe:
+              - action:
+                  character:
+                    char: “”
+                label: “”
+                display: true
+                processByRIME: false
+                direction: up
+              - action:
+                  character:
+                    char: ，
+                label: ，
+                display: true
+                processByRIME: false
+                direction: down
+            callout:
+              - action:
+                  shortcutCommand: "#粘贴"
+                label: 󰅏
+            lightModeStyleName: V
+            darkModeStyleName: V-Dark
+          - action:
+              character:
+                char: B
+            width:
+              percentage: 0.1
+            label: B
+            swipe:
+              - action:
+                  character:
+                    char: 《》
+                label: 《》
+                display: true
+                processByRIME: false
+                direction: up
+              - action:
+                  character:
+                    char: 。
+                label: 。
+                display: true
+                processByRIME: false
+                direction: down
+            lightModeStyleName: B
+            darkModeStyleName: B-Dark
+          - action:
+              character:
+                char: N
+            width:
+              percentage: 0.1
+            label: N
+            swipe:
+              - action:
+                  character:
+                    char: 『』
+                label: 『』
+                display: true
+                processByRIME: false
+                direction: up
+              - action:
+                  character:
+                    char: 、
+                label: 、
+                display: true
+                processByRIME: false
+                direction: down
+            lightModeStyleName: N
+            darkModeStyleName: N-Dark
+          - action:
+              character:
+                char: M
+            width:
+              percentage: 0.1
+            label: M
+            swipe:
+              - action:
+                  character:
+                    char: "`"
+                label:
+                  text: ""
+                display: true
+                processByRIME: false
+                direction: up
+            lightModeStyleName: M
+            darkModeStyleName: M-Dark
+          - action: none
+            width: available
+            label:
+              text: ""
+          - action: backspace
+            width:
+              percentage: 0.13
+            label: 󰣙
+            callout:
+              - action:
+                  shortcutCommand: "#清空"
+                label: 󰺝
+            lightModeStyleName: Delete
+            darkModeStyleName: Delete-dark
+        rowHeight: 52.4
+      - keys:
+          - action:
+              shortcutCommand: "#中英切换"
+            processByRIME: false
+            width:
+              percentage: 0.2
+            label: 󰨡
+            lightModeStyleName: EN
+            darkModeStyleName: EN-Dark
+          - action:
+              keyboardType: Digit
+            width:
+              percentage: 0.1
+            label: 
+            callout:
+              - action:
+                  keyboardType: Symbol
+                label: 
+              - action:
+                  keyboardType: Nine_square
+                label: 
+            lightModeStyleName: Digit
+            darkModeStyleName: Digit-dark
+          - action: space
+            width:
+              percentage: 0.4
+            label: 󰔁pace
+            swipe:
+              - action:
+                  shortcutCommand: "#次选上屏"
+                label:
+                  text: ""
+                display: false
+                processByRIME: true
+                direction: up
+              - action:
+                  shortcutCommand: "#三选上屏"
+                label:
+                  text: ""
+                display: false
+                processByRIME: true
+                direction: down
+            lightModeStyleName: Space
+            darkModeStyleName: Space-dark
+          - action:
+              shortcutCommand: "#简繁切换"
+            width:
+              percentage: 0.1
+            label: 󰏚
+            swipe:
+              - action:
+                  keyboardType: emojis
+                label:
+                  text: ""
+                display: false
+                processByRIME: true
+                direction: up
+            callout:
+              - action:
+                  shortcutCommand: "#全选"
+                label: 󱫆
+              - action:
+                  shortcutCommand: "#剪切"
+                label: 󱫊
+              - action:
+                  shortcutCommand: "#复制"
+                label: 󱫉
+              - action:
+                  shortcutCommand: "#粘贴"
+                label: 󰅏
+            lightModeStyleName: Emojis
+            darkModeStyleName: Emojis-Dark
+          - action: enter
+            width:
+              percentage: 0.2
+            label: 
+            swipe:
+              - action:
+                  shortcutCommand: "#换行"
+                label:
+                  text: ""
+                display: false
+                processByRIME: true
+                direction: up
+            callout:
+              - action:
+                  shortcutCommand: "#换行"
+                label: " "
+            lightModeStyleName: Enter
+            darkModeStyleName: Enter-dark
+        rowHeight: 52.4
+    buttonInsets:
+      left: 3
+      bottom: 4
+      top: 8
+      right: 3
+    keyStyle:
+      Shift: *a1
+      Shift-dark: *a2
+      Delete: *a3
+      Delete-dark: *a4
+      EN: *a5
+      EN-Dark: *a6
+      Digit: *a7
+      Digit-dark: *a8
+      Space: *a9
+      Space-dark: *a10
+      Emojis: *a11
+      Emojis-Dark: *a12
+      Enter: *a13
+      Enter-dark: *a14
+  - name: Symbol
+    isPrimary: false
+    rows:
+      - keys:
+          - action:
+              character:
+                char: 【
+            width:
+              percentage: 0.1
+            label: 【
+            lightModeStyleName: A
+            darkModeStyleName: A-Dark
+          - action:
+              character:
+                char: 】
+            width:
+              percentage: 0.1
+            label: 】
+            lightModeStyleName: B
+            darkModeStyleName: B-Dark
+          - action:
+              character:
+                char: ｛
+            width:
+              percentage: 0.1
+            label: ﹛
+            lightModeStyleName: C
+            darkModeStyleName: C-Dark
+          - action:
+              character:
+                char: ｝
+            width:
+              percentage: 0.1
+            label: ﹜
+            lightModeStyleName: D
+            darkModeStyleName: D-Dark
+          - action:
+              character:
+                char: "#"
+            width:
+              percentage: 0.1
+            label: "#"
+            lightModeStyleName: E
+            darkModeStyleName: E-Dark
+          - action:
+              character:
+                char: "%"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: F
+            darkModeStyleName: F-Dark
+          - action:
+              character:
+                char: ……
+            width:
+              percentage: 0.1
+            label: ^
+            lightModeStyleName: G
+            darkModeStyleName: G-Dark
+          - action:
+              character:
+                char: "*"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: H
+            darkModeStyleName: H-Dark
+          - action:
+              character:
+                char: +
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: J
+            darkModeStyleName: J-Dark
+          - action:
+              character:
+                char: =
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: K
+            darkModeStyleName: K-Dark
+        rowHeight: 52.4
+      - keys:
+          - action:
+              character:
+                char: _
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: K
+            darkModeStyleName: K-Dark
+          - action:
+              character:
+                char: "-"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: L
+            darkModeStyleName: L-Dark
+          - action:
+              character:
+                char: \
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: M
+            darkModeStyleName: M-Dark
+          - action:
+              character:
+                char: ｜
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: N
+            darkModeStyleName: N-Dark
+          - action:
+              character:
+                char: "`"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: O
+            darkModeStyleName: O-Dark
+          - action:
+              character:
+                char: 《
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: P
+            darkModeStyleName: P-Dark
+          - action:
+              character:
+                char: 》
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: Q
+            darkModeStyleName: Q-Dark
+          - action:
+              character:
+                char: $
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: R
+            darkModeStyleName: R-Dark
+          - action:
+              character:
+                char: "&"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: S
+            darkModeStyleName: S-Dark
+          - action:
+              character:
+                char: .
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: T
+            darkModeStyleName: T-Dark
+        rowHeight: 52.4
+      - keys:
+          - action:
+              keyboardType: Digit
+            width:
+              percentage: 0.13
+            label: 
+            callout:
+              - action:
+                  keyboardType: Nine_square
+                label: 
+            lightModeStyleName: Digit
+            darkModeStyleName: Digit-dark
+          - action: none
+            width:
+              percentage: 0.02
+            label:
+              text: ""
+          - action:
+              character:
+                char: …
+            width:
+              percentage: 0.14
+            label:
+              text: ""
+            lightModeStyleName: U
+            darkModeStyleName: U-Dark
+          - action:
+              character:
+                char: ，
+            width:
+              percentage: 0.14
+            label:
+              text: ""
+            lightModeStyleName: V
+            darkModeStyleName: V-Dark
+          - action:
+              character:
+                char: "?"
+            width:
+              percentage: 0.14
+            label:
+              text: ""
+            lightModeStyleName: W
+            darkModeStyleName: W-Dark
+          - action:
+              character:
+                char: "!"
+            width:
+              percentage: 0.14
+            label:
+              text: ""
+            lightModeStyleName: X
+            darkModeStyleName: X-Dark
+          - action:
+              character:
+                char: "'"
+            width:
+              percentage: 0.14
+            label:
+              text: ""
+            lightModeStyleName: Y
+            darkModeStyleName: Y-Dark
+          - action: none
+            width:
+              percentage: 0.02
+            label:
+              text: ""
+          - action: backspace
+            width:
+              percentage: 0.13
+            label: 󰣙
+            lightModeStyleName: Delete
+            darkModeStyleName: Delete-dark
+        rowHeight: 52.4
+      - keys:
+          - action:
+              keyboardType: Chinese_Srainbow
+            width:
+              percentage: 0.2
+            label: 󰢶
+            lightModeStyleName: EN
+            darkModeStyleName: EN-Dark
+          - action: none
+            width:
+              percentage: 0.01
+            label:
+              text: ""
+          - action: space
+            width: available
+            label: 󰔁pace
+            lightModeStyleName: Space
+            darkModeStyleName: Space-dark
+          - action: none
+            width:
+              percentage: 0.01
+            label:
+              text: ""
+          - action: enter
+            width:
+              percentage: 0.2
+            label: 
+            swipe:
+              - action:
+                  shortcutCommand: "#换行"
+                label:
+                  text: ""
+                display: false
+                processByRIME: false
+                direction: up
+            lightModeStyleName: Enter
+            darkModeStyleName: Enter-dark
+        rowHeight: 52.4
+    buttonInsets:
+      left: 3
+      bottom: 4
+      top: 8
+      right: 3
+    keyStyle:
+      Digit: *a7
+      Digit-dark: *a8
+      Delete: *a3
+      Delete-dark: *a4
+      EN: *a5
+      EN-Dark: *a6
+      Space: *a9
+      Space-dark: *a10
+      Enter: *a13
+      Enter-dark: *a14
+  - name: Digit
+    isPrimary: false
+    rows:
+      - keys:
+          - action:
+              character:
+                char: "1"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: A
+            darkModeStyleName: A-Dark
+          - action:
+              character:
+                char: "2"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: B
+            darkModeStyleName: B-Dark
+          - action:
+              character:
+                char: "3"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: C
+            darkModeStyleName: C-Dark
+          - action:
+              character:
+                char: "4"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: D
+            darkModeStyleName: D-Dark
+          - action:
+              character:
+                char: "5"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: E
+            darkModeStyleName: E-Dark
+          - action:
+              character:
+                char: "6"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: F
+            darkModeStyleName: F-Dark
+          - action:
+              character:
+                char: "7"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: G
+            darkModeStyleName: G-Dark
+          - action:
+              character:
+                char: "8"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: H
+            darkModeStyleName: H-Dark
+          - action:
+              character:
+                char: "9"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: I
+            darkModeStyleName: I-Dark
+          - action:
+              character:
+                char: "0"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: J
+            darkModeStyleName: J-Dark
+        rowHeight: 52.4
+      - keys:
+          - action:
+              character:
+                char: "-"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: K
+            darkModeStyleName: K-Dark
+          - action:
+              character:
+                char: /
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: L
+            darkModeStyleName: L-Dark
+          - action:
+              character:
+                char: ：
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: M
+            darkModeStyleName: M-Dark
+          - action:
+              character:
+                char: ；
+            width:
+              percentage: 0.1
+            label: ﹔
+            lightModeStyleName: N
+            darkModeStyleName: N-Dark
+          - action:
+              character:
+                char: (
+            width:
+              percentage: 0.1
+            label: ﹙
+            lightModeStyleName: O
+            darkModeStyleName: O-Dark
+          - action:
+              character:
+                char: )
+            width:
+              percentage: 0.1
+            label: ﹚
+            lightModeStyleName: P
+            darkModeStyleName: P-Dark
+          - action:
+              character:
+                char: $
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: Q
+            darkModeStyleName: Q-Dark
+          - action:
+              character:
+                char: "&"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: R
+            darkModeStyleName: R-Dark
+          - action:
+              character:
+                char: "@"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: S
+            darkModeStyleName: S-Dark
+          - action:
+              character:
+                char: '"'
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: T
+            darkModeStyleName: T-Dark
+        rowHeight: 52.4
+      - keys:
+          - action:
+              keyboardType: Symbol
+            width:
+              percentage: 0.13
+            label: 
+            lightModeStyleName: Digit
+            darkModeStyleName: Digit-dark
+          - action: none
+            width:
+              percentage: 0.02
+            label:
+              text: ""
+          - action:
+              character:
+                char: .
+            width:
+              percentage: 0.14
+            label: ·
+            lightModeStyleName: U
+            darkModeStyleName: U-Dark
+          - action:
+              character:
+                char: ","
+            width:
+              percentage: 0.14
+            label: ﹐
+            lightModeStyleName: V
+            darkModeStyleName: V-Dark
+          - action:
+              character:
+                char: "?"
+            width:
+              percentage: 0.14
+            label:
+              text: ""
+            lightModeStyleName: W
+            darkModeStyleName: W-Dark
+          - action:
+              character:
+                char: "!"
+            width:
+              percentage: 0.14
+            label:
+              text: ""
+            lightModeStyleName: X
+            darkModeStyleName: X-Dark
+          - action:
+              character:
+                char: "'"
+            width:
+              percentage: 0.14
+            label:
+              text: ""
+            lightModeStyleName: Z
+            darkModeStyleName: Z-Dark
+          - action: none
+            width:
+              percentage: 0.02
+            label:
+              text: ""
+          - action: backspace
+            width:
+              percentage: 0.13
+            label: 󰣙
+            lightModeStyleName: Delete
+            darkModeStyleName: Delete-dark
+        rowHeight: 52.4
+      - keys:
+          - action:
+              keyboardType: Chinese
+            width:
+              percentage: 0.2
+            label: 󰢶
+            lightModeStyleName: EN
+            darkModeStyleName: EN-Dark
+          - action: none
+            width:
+              percentage: 0.01
+            label:
+              text: ""
+          - action: space
+            width: available
+            label: 󰔁pace
+            lightModeStyleName: Space
+            darkModeStyleName: Space-dark
+          - action: none
+            width:
+              percentage: 0.01
+            label:
+              text: ""
+          - action: enter
+            width:
+              percentage: 0.2
+            label: 
+            swipe:
+              - action:
+                  shortcutCommand: "#换行"
+                label:
+                  text: ""
+                display: false
+                processByRIME: true
+                direction: up
+            lightModeStyleName: Enter
+            darkModeStyleName: Enter-dark
+        rowHeight: 52.4
+    buttonInsets:
+      left: 3
+      bottom: 4
+      top: 8
+      right: 3
+    keyStyle:
+      Digit: *a7
+      Digit-dark: *a8
+      Delete: *a3
+      Delete-dark: *a4
+      EN: *a5
+      EN-Dark: *a6
+      Space: *a9
+      Space-dark: *a10
+      Enter: *a13
+      Enter-dark: *a14
+  - name: Nine_square
+    isPrimary: false
+    rows:
+      - keys:
+          - action:
+              character:
+                char: +
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: Z
+            darkModeStyleName: Z-Dark
+          - action:
+              character:
+                char: "-"
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: Y
+            darkModeStyleName: Y-Dark
+          - action:
+              character:
+                char: "1"
+            width: available
+            label:
+              text: ""
+            lightModeStyleName: A
+            darkModeStyleName: A-Dark
+          - action:
+              character:
+                char: "2"
+            width: available
+            label:
+              text: ""
+            lightModeStyleName: B
+            darkModeStyleName: B-Dark
+          - action:
+              character:
+                char: "3"
+            width: available
+            label:
+              text: ""
+            lightModeStyleName: C
+            darkModeStyleName: C-Dark
+          - action:
+              character:
+                char: =
+            width: available
+            label:
+              text: ""
+            lightModeStyleName: L
+            darkModeStyleName: L-Dark
+      - keys:
+          - action:
+              character:
+                char: "*"
+            width:
+              percentage: 0.1
+            label: ×
+            lightModeStyleName: X
+            darkModeStyleName: X-Dark
+          - action:
+              character:
+                char: /
+            width:
+              percentage: 0.1
+            label: ÷
+            lightModeStyleName: W
+            darkModeStyleName: W-Dark
+          - action:
+              character:
+                char: "4"
+            width: available
+            label:
+              text: ""
+            lightModeStyleName: D
+            darkModeStyleName: D-Dark
+          - action:
+              character:
+                char: "5"
+            width: available
+            label:
+              text: ""
+            lightModeStyleName: E
+            darkModeStyleName: E-Dark
+          - action:
+              character:
+                char: "6"
+            width: available
+            label:
+              text: ""
+            lightModeStyleName: F
+            darkModeStyleName: F-Dark
+          - action:
+              character:
+                char: ":"
+            width: available
+            label:
+              text: ""
+            lightModeStyleName: M
+            darkModeStyleName: M-Dark
+      - keys:
+          - action:
+              character:
+                char: (
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: V
+            darkModeStyleName: V-Dark
+          - action:
+              character:
+                char: )
+            width:
+              percentage: 0.1
+            label:
+              text: ""
+            lightModeStyleName: U
+            darkModeStyleName: U-Dark
+          - action:
+              character:
+                char: "7"
+            width: available
+            label:
+              text: ""
+            lightModeStyleName: G
+            darkModeStyleName: G-Dark
+          - action:
+              character:
+                char: "8"
+            width: available
+            label:
+              text: ""
+            lightModeStyleName: H
+            darkModeStyleName: H-Dark
+          - action:
+              character:
+                char: "9"
+            width: available
+            label:
+              text: ""
+            lightModeStyleName: I
+            darkModeStyleName: I-Dark
+          - action: backspace
+            width: available
+            label: 󰣙
+            lightModeStyleName: Delete
+            darkModeStyleName: Delete-dark
+      - keys:
+          - action:
+              keyboardType: Chinese
+            width: available
+            label: 󰢶
+            lightModeStyleName: EN
+            darkModeStyleName: EN-Dark
+          - action:
+              character:
+                char: .
+            width: available
+            label:
+              text: ""
+            lightModeStyleName: K
+            darkModeStyleName: K-Dark
+          - action:
+              character:
+                char: "0"
+            width: available
+            label:
+              text: ""
+            lightModeStyleName: J
+            darkModeStyleName: J-Dark
+          - action: space
+            width: available
+            label: 󰔁pace
+            lightModeStyleName: Space
+            darkModeStyleName: Space-dark
+          - action: enter
+            width: available
+            label: 
+            lightModeStyleName: Enter
+            darkModeStyleName: Enter-dark
+    buttonInsets:
+      left: 3
+      bottom: 4
+      top: 8
+      right: 3
+    keyStyle:
+      Delete: *a3
+      Delete-dark: *a4
+      EN: *a5
+      EN-Dark: *a6
+      Space: *a9
+      Space-dark: *a10
+      Enter: *a13
+      Enter-dark: *a14
+
