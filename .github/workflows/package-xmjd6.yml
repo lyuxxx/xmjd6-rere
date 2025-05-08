@@ -52,6 +52,8 @@ jobs:
         
         # 解压
         unzip -q opencc_temp.zip -d opencc_extract_temp
+
+        mkdir -p opencc/xmjd6
         
         # 移动文件 (智能判断解压结构)
         echo "Copying files to opencc/xmjd6/..."
