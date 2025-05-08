@@ -2,7 +2,7 @@
 # 修改后需要重新部署。true=开启，false=关闭。
 patch:
   # ===== 方案显示与基础输入 =====
-  schema/name: 🌟🐈       # 方案名称
+  schema/name: 星猫        # 方案名称
   schema/icon: xmjd6.ico  # 方案图标，部署与状态栏显示
   speller/auto_select: false          # 自动上屏；默认关闭
   hint_text: ''                     # 顶功提示符
