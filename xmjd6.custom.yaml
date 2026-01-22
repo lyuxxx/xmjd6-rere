@@ -1,6 +1,6 @@
 #功能开关一键配置
 patch:
-  schema/name: 🌟🐈   #修改方案名称，显示在空格上的名字
+  schema/name: 星猫   #修改方案名称，显示在空格上的名字
   schema/icon: "xmjd6.ico" #任务栏显示星猫键道图标，注释后恢复默认
   speller/auto_select: false   #自动上屏开关，默认关false开true
   hint_text: ''    #顶功提示符→在两个<''>中间添加符号，例如hint_text: '🔞'
